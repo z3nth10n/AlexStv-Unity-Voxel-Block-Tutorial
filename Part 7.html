@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Part 7_files/analytics.js.descarga"></script><script src="./Part 7_files/analytics.js(1).descarga" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app22.us.archive.org';v.server_ms=199;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./Part 7_files/ait-client-rewrite.js.descarga" charset="utf-8"></script>
+<script type="text/javascript">
+WB_wombat_Init('https://web.archive.org/web', '20150318012606', 'alexstv.com:80');
+</script>
+<script type="text/javascript" src="./Part 7_files/wbhack.js.descarga" charset="utf-8"></script>
+<script type="text/javascript">
+__wbhack.init('https://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="./Part 7_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Part 7_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+		
+		<title>AlexStv</title>
+
+		<meta name="description" content="Code and things">
+
+		<link rel="stylesheet" href="./Part 7_files/reset.css">
+		<link rel="stylesheet" href="./Part 7_files/style.css">
+		
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/feeds/rss">
+		<link rel="shortcut icon" href="https://web.archive.org/web/20150318012606im_/http://alexstv.com:80/themes/AnchoredGallery/img/favicon.png">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script>var base = '/themes/AnchoredGallery/';</script>
+		<script src="./Part 7_files/zepto.js.descarga"></script>
+		<script src="./Part 7_files/main.js.descarga"></script>
+		
+		<link href="./Part 7_files/css" rel="stylesheet" type="text/css">
+		<link href="./Part 7_files/css(1)" rel="stylesheet" type="text/css">
+		<link type="text/css" rel="Stylesheet" href="./Part 7_files/shCoreRDark.css">
+
+
+	    <meta name="viewport" content="width=600">
+	    <meta name="generator" content="Anchor CMS">
+
+	    <meta property="og:title" content="AlexStv">
+	    <meta property="og:type" content="website">
+	    <meta property="og:url" content="posts/unity-voxel-block-tutorial-pt-7">
+	    <meta property="og:image" content="/web/20150318012606im_/http://alexstv.com:80/themes/AnchoredGallery/img/og_image.gif">
+	    <meta property="og:site_name" content="AlexStv">
+	    <meta property="og:description" content="Code and things">
+
+		
+		<!-- Include required JS files -->
+		<script type="text/javascript" src="./Part 7_files/shCore.js.descarga"></script>
+		<script type="text/javascript" src="./Part 7_files/shBrushCSharp.js.descarga"></script>
+
+        <script type="text/javascript" src="./Part 7_files/jquery.min.js.descarga"></script>
+        <!-- Include jQuery Syntax Highlighter -->
+        <script type="text/javascript" src="./Part 7_files/jquery.syntaxhighlighter.min.js.descarga"></script>
+        <!-- Initialise jQuery Syntax Highlighter -->
+        <script type="text/javascript">$.SyntaxHighlighter.init();</script>
+        <!-- Initialise jQuery Syntax Highlighter -->
+        <script type="text/javascript">
+          $.SyntaxHighlighter.init({
+          'alternateLines':true
+
+          });
+        </script>
+	
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+	</script></head>
+	
+	
+
+	<body class="posts home"><div id="wm-ipp" lang="en" style="display: block; direction: ltr;">
+<div style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:130px;padding-top:10px;">
+      <a href="https://web.archive.org/web/" title="Wayback Machine home page"><img src="./Part 7_files/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7#" onclick="__wm.saveSnapshot(&#39;http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7&#39;, &#39;20150318012606&#39;)" title="Share via My Web Archive" id="wm-save-snapshot-open" style="display: none;">
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: inline-block;">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web" style="display: none;"></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" style="text-align:right;">
+	<a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7#" onclick="window.open(&#39;https://www.facebook.com/sharer/sharer.php?u=https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7#" onclick="window.open(&#39;https://twitter.com/intent/tweet?text=https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7&amp;via=internetarchive&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="https://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7" onfocus="this.focus();this.select();" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20150318012606"><input type="submit" value="Go"></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20150214022329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7" title="14 Feb 2015"><strong>Feb</strong></a></td>
+		  <td class="c" id="displayMonthEl" title="You are here: 01:26:06 Mar 18, 2015">MAR</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20150423074746/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7" title="23 Apr 2015"><strong>Apr</strong></a></td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20150214022329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7" title="02:23:29 Feb 14, 2015"><img src="./Part 7_files/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 01:26:06 Mar 18, 2015">18</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20150423074746/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7" title="07:47:46 Apr 23, 2015"><img src="./Part 7_files/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap">2014</td>
+		  <td class="c" id="displayYearEl" title="You are here: 01:26:06 Mar 18, 2015">2015</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20160329095524/http://alexstv.com/index.php/posts/unity-voxel-block-tutorial-pt-7" title="29 Mar 2016"><strong>2016</strong></a></td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures"><a class="t" href="https://web.archive.org/web/*/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7" title="See a list of every capture for this URL">26 captures</a><div class="r" title="Timespan for captures of this URL">14 Feb 2015 - 8 Oct 2017</div></div>
+	  </td>
+	  <td class="k">
+	    <a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="575" height="27" border="0"></canvas>
+	      <div class="yt" style="display: none; width: 25px; height: 27px;"></div><div class="mt" style="display: none; width: 2px; height: 27px;"></div></div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+            <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="./Part 7_files/loading.gif" alt="loading"></div>
+    </div>
+  </div></div></div></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="./Part 7_files/timestamp.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 7_files/graph-calc.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 7_files/auto-complete.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 7_files/toolbar.js.descarga" charset="utf-8"></script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<script type="text/javascript">
+__wm.bt(575,27,25,2,"web","http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7","2015-03-18",1996);
+</script><div class="wb-autocomplete-suggestions "></div>
+<!-- END WAYBACK TOOLBAR INSERT -->
+	
+			<div style="background-color:#4774A5; overflow:hidden; background-position:center; background-image:url(&#39;https://web.archive.org/web/20150318012606im_/http://4.bp.blogspot.com/-9w7pH08mSaM/UGbaDEz3kOI/AAAAAAAADeI/9XWFFsdLdwg/s1600/body.png&#39;);background-repeat:repeat;">
+	<article class="wrapper">
+		<a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/">
+			<header>
+				<titletext>AlexStv</titletext>
+			</header>
+		</a>
+		
+											
+						
+					
+			<div class="pagewrapper" style="width:100%">
+																	
+														<a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/category/general" title="General">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>General (2)</stamptext>
+						</div>
+					</a>
+										<a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/category/voxels" title="Voxels">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>Voxels (7)</stamptext>
+						</div>
+					</a>
+										<a href="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/category/grapple" title="Grapple">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>Grapple (3)</stamptext>
+						</div>
+					</a>
+													
+			</div>
+			</article>
+	</div>
+
+
+		
+		
+	
+		
+	
+	
+
+	
+	
+
+<div class="bg2">
+	<article class="wrapper">
+<div class="post">
+									<div id="filler">
+							              <div class="description" style="width:100%; padding-bottom:30px; background-color:#3C5C89;">
+
+                                        <h1 style="color:#fff;">Unity voxel block tutorial pt. 7</h1>
+						</div>
+						</div>
+					
+						<div id="filler">
+							<div class="description">
+								<bodytext>
+									<p>In this part we're going to add some functions to load chunks around the player and unload chunks when they're too far away. This makes it possible to let the player roam however they would like and keep the number of chunks in memory and being rendered to a minimum.</p>
+
+<p>We'll start with some preliminary changes, <strong>open the Chunk script</strong> and set the initial value of the update boolean to false:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_637686" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//Chunk.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">bool</code> <code class="csharp plain">update = </code><code class="csharp keyword">false</code><code class="csharp plain">;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And check the chunk prefab in the editor to make sure that update is false there too. </p>
+
+<p>Now <strong>in the World script</strong> we're going to remove the existing methods for triggering chunk creation so remove the newChunk and genChunk variables and remove the Update and Delete functions:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_260657" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">// Remove these lines from World.cs</code></div><div class="line number2 index1 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; public int newChunkX;</code></div><div class="line number3 index2 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; public int newChunkY;</code></div><div class="line number4 index3 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; public int newChunkZ;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; public bool genChunk;</code></div><div class="line number7 index6 alt2">&nbsp;</div><div class="line number8 index7 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; // Use this for initialization</code></div><div class="line number9 index8 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; void Start()</code></div><div class="line number10 index9 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; {</code></div><div class="line number11 index10 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (int x = -4; x &lt; 4; x++)</code></div><div class="line number12 index11 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</code></div><div class="line number13 index12 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (int y = -1; y &lt; 3; y++)</code></div><div class="line number14 index13 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</code></div><div class="line number15 index14 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (int z = -4; z &lt; 4; z++)</code></div><div class="line number16 index15 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</code></div><div class="line number17 index16 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CreateChunk(x * 16, y * 16, z * 16);</code></div><div class="line number18 index17 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</code></div><div class="line number19 index18 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</code></div><div class="line number20 index19 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</code></div><div class="line number21 index20 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; }</code></div><div class="line number22 index21 alt1">&nbsp;</div><div class="line number23 index22 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; // Update is called once per frame</code></div><div class="line number24 index23 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; void Update()</code></div><div class="line number25 index24 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; {</code></div><div class="line number26 index25 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (genChunk)</code></div><div class="line number27 index26 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</code></div><div class="line number28 index27 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; genChunk = false;</code></div><div class="line number29 index28 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WorldPos chunkPos = new WorldPos(newChunkX, newChunkY, newChunkZ);</code></div><div class="line number30 index29 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chunk chunk = null;</code></div><div class="line number31 index30 alt2">&nbsp;</div><div class="line number32 index31 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (chunks.TryGetValue(chunkPos, out chunk))</code></div><div class="line number33 index32 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</code></div><div class="line number34 index33 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DestroyChunk(chunkPos.x, chunkPos.y, chunkPos.z);</code></div><div class="line number35 index34 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</code></div><div class="line number36 index35 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else</code></div><div class="line number37 index36 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</code></div><div class="line number38 index37 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CreateChunk(chunkPos.x, chunkPos.y, chunkPos.z);</code></div><div class="line number39 index38 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</code></div><div class="line number40 index39 alt1"><code class="csharp comments">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</code></div><div class="line number41 index40 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; }</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Now let's create the terrain loading script, <strong>create a new script called LoadChunks</strong> and start it like this:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_785228" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number3 index2 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number4 index3 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections.Generic;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp keyword">public</code> <code class="csharp keyword">class</code> <code class="csharp plain">LoadChunks : MonoBehaviour {</code></div><div class="line number7 index6 alt2">&nbsp;</div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">World world;</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// Update is called once per frame</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">Update () {</code></div><div class="line number12 index11 alt1">&nbsp;</div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number14 index13 alt1"><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>LoadChunks is going to be a script that goes on the player or on the camera and loads the chunks around it but discards the chunks too far away from it. We'll start with creating chunks around the player and we'll tackle it in three parts, identifying the positions that need chunks generated, creating the chunk objects and then rendering the mesh for the chunk. This is one of the most resource intensive parts of voxel terrain because in order to maintain a feeling of infinite terrain you need to be able to create chunks in front of the player faster than they can move.</p>
+
+<p>Once we find chunks we'll add them to a list of chunks to generate and once the chunks are generated we'll add them to a list of chunks to render. We don't want to generate and load them at the same time because it gives us the freedom to load chunks but not show them immediately but we'll get to that later. For now add two lists to LoadChunks:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_805225" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">List&lt;WorldPos&gt; updateList = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;WorldPos&gt;();</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">List&lt;WorldPos&gt; buildList = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;WorldPos&gt;();</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And to be able to load a chunk and not render it we need to add a boolean the chunk script to show that it has or hasn't been rendered yet. <strong>Open the Chunk script</strong> and add this boolean:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_329547" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//Chunk.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">bool</code> <code class="csharp plain">rendered;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And set it to true in the UpdateChunk function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_701614" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//Chunk.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// Updates the chunk based on its contents</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">bool</code> <code class="csharp plain">UpdateChunk()</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">rendered = </code><code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">...</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p><strong>Switch to the LoadChunks script</strong> where we'll start searching for chunks near the player to create. We need to create blocks nearest the player first so I've created a queue of chunk positions radiating from 0,0,0 sorted by closeness to the centre. Add this variable to your script:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_808550" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">static</code>&nbsp; <code class="csharp plain">WorldPos[] chunkPositions= {&nbsp;&nbsp; </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 0),</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 0),</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 1),</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0, -1),</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 2),</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0, -1),</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 3),</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0, -3),</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 2),</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0, -1),</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 4),</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0, -3),</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 4),</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0,&nbsp; 0),</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0, -5),</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0,&nbsp; 3),</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 5),</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0, -2),</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 5),</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0, -4),</code></div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 5),</code></div><div class="line number23 index22 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0,&nbsp; 0),</code></div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0, -1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0,&nbsp; 1),</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0, -1),</code></div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 6),</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0, -4),</code></div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0,&nbsp; 5),</code></div><div class="line number29 index28 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0, -6),</code></div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0,&nbsp; 3),</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-7, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0, -7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 0, 0,&nbsp; 7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 7, 0,&nbsp; 0), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-7, 0, -1),</code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-7, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0, -7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-1, 0,&nbsp; 7),</code></div><div class="line number33 index32 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0, -7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 1, 0,&nbsp; 7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 7, 0, -1),</code></div><div class="line number34 index33 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 7, 0,&nbsp; 1), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-4, 0,&nbsp; 6),</code></div><div class="line number35 index34 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 4, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0, -4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0,&nbsp; 4), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-7, 0, -2),</code></div><div class="line number36 index35 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-7, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0, -7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-2, 0,&nbsp; 7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0, -7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 2, 0,&nbsp; 7),</code></div><div class="line number37 index36 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 7, 0, -2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 7, 0,&nbsp; 2), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-7, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-7, 0,&nbsp; 3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0, -7),</code></div><div class="line number38 index37 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-3, 0,&nbsp; 7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0, -7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 3, 0,&nbsp; 7), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 7, 0, -3), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 7, 0,&nbsp; 3),</code></div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-6, 0,&nbsp; 5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0, -6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(-5, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0, -6),</code></div><div class="line number40 index39 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 5, 0,&nbsp; 6), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0, -5), </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos( 6, 0,&nbsp; 5) };</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>It's a big array but it never changes so there's no point calculating it on the fly. Now we can go on to creating the function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_705102" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">FindChunksToLoad()</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Get the position of this gameobject to generate around</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">WorldPos playerPos = </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Mathf.FloorToInt(transform.position.x / Chunk.chunkSize) * Chunk.chunkSize,</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Mathf.FloorToInt(transform.position.y / Chunk.chunkSize) * Chunk.chunkSize,</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Mathf.FloorToInt(transform.position.z / Chunk.chunkSize) * Chunk.chunkSize</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">);</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//If there aren't already chunks to generate</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(buildList.Count == 0)</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Cycle through the array of positions</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">i = 0; i &lt; chunkPositions.Length; i++)</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//translate the player position and array position into chunk position</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">WorldPos newChunkPos = </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunkPositions[i].x * Chunk.chunkSize + playerPos.x,</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">0, </code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunkPositions[i].z * Chunk.chunkSize + playerPos.z</code></div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">);</code></div><div class="line number23 index22 alt2">&nbsp;</div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Get the chunk in the defined position</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Chunk newChunk = world.GetChunk(</code></div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">newChunkPos.x, newChunkPos.y, newChunkPos.z);</code></div><div class="line number27 index26 alt2">&nbsp;</div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//If the chunk already exists and it's already</code></div><div class="line number29 index28 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//rendered or in queue to be rendered continue</code></div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(newChunk != </code><code class="csharp keyword">null</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">&amp;&amp; (newChunk.rendered || updateList.Contains(newChunkPos)))</code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">continue</code><code class="csharp plain">;</code></div><div class="line number33 index32 alt2">&nbsp;</div><div class="line number34 index33 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//load a column of chunks in this position</code></div><div class="line number35 index34 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">y = -4; y &lt; 4; y++)</code></div><div class="line number36 index35 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number37 index36 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">buildList.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(</code></div><div class="line number38 index37 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">newChunkPos.x, y * Chunk.chunkSize, newChunkPos.z));</code></div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number40 index39 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code><code class="csharp plain">;</code></div><div class="line number41 index40 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number42 index41 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number43 index42 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>To summarize this takes the player position's x and z, then for each entry in the chunkPositions array offsets the player position by the chunk position. Then in that position it checks for a chunk, if there is no chunk or the chunk there isn't yet rendered yet add a column of chunks in that position to the build list. Once it finds a chunk column to add it returns so that only one column is added to the list.</p>
+
+<p>Now that we have the build list being populated we'll need a function to build those chunks. From what I've found  when rendering a chunk you need to have all the neighbouring chunks loaded so that the blocks on the edge of the chunk being rendered can get block information on the blocks next to them in the neighbouring chunk. If you don't load the neighbouring chunks the blocks have to assume the neighbour is solid or not, solid will make a lot of errors where the rendering assumes the face can't be seen and assuming not solid will render a lot of block faces that are actually hidden especially underground. Having the neighbours loaded but not rendered solves this and often we'll be loading those chunks next anyway.</p>
+
+<p>So now when we build a chunk we'll also build all the chunks near except chunks too high or low it and only render the one we were given:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_995979" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">BuildChunk(WorldPos pos)</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">y = pos.y - Chunk.chunkSize; y &lt;= pos.y + Chunk.chunkSize; y += Chunk.chunkSize)</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(y &gt; 64 || y &lt; -64)</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">continue</code><code class="csharp plain">;</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">x = pos.x - Chunk.chunkSize; x &lt;= pos.x + Chunk.chunkSize; x += Chunk.chunkSize)</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">z = pos.z - Chunk.chunkSize; z &lt;= pos.z + Chunk.chunkSize; z += Chunk.chunkSize)</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(world.GetChunk(x, y, z) == </code><code class="csharp keyword">null</code><code class="csharp plain">)</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">world.CreateChunk(x, y, z);</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number18 index17 alt1">&nbsp;</div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">updateList.Add(pos);</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>That handles building a chunk and populates the update list so next we'll create a function to call it and to handle the chunks in the update list:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_189406" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">LoadAndRenderChunks()</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">i = 0; i &lt; 4; i++)</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(buildList.Count != 0)</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">BuildChunk(buildList[0]);</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">buildList.RemoveAt(0);</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number12 index11 alt1">&nbsp;</div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">i = 0; i &lt; updateList.Count; i++)</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Chunk chunk = world.GetChunk(updateList[0].x, updateList[0].y, updateList[0].z);</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(chunk != </code><code class="csharp keyword">null</code><code class="csharp plain">)</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunk.update = </code><code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">updateList.RemoveAt(0);</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>The first partloops through up to 4 chunks to be built and builds them. You can limit how intensive this is per frame by changing the for loop around the build list and the call to BuildChunk to iterate more or fewer times per frame. The second part loops through all the chunks to update and updates them, there's no reason to limit how many of these to do per frame because there will only ever be one to update per chunk built so we can limit the chunks built instead.</p>
+
+<p>Next we can add these functions to the update function and test it:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_415936" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// Update is called once per frame</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">Update () {</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">FindChunksToLoad();</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">LoadAndRenderChunks();</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>With our changes so far that should find, load and render chunks around the object using this script. Go ahead and try it out but it will grind to a halt quickly because so many chunks will be loaded.</p>
+
+<p>So next lets set up deleting of chunks to fix that. Because it isn't time sensitive like loading chunks we can delete less often, for that we'll add a variable called timer to only delete chunks every 10 frames:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_91670" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunk.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">int</code> <code class="csharp plain">timer = 0;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And now the function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_338585" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">DeleteChunks()</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number4 index3 alt1">&nbsp;</div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(timer == 10)</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">var chunksToDelete = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;WorldPos&gt;();</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">foreach</code> <code class="csharp plain">(var chunk </code><code class="csharp keyword">in</code> <code class="csharp plain">world.chunks)</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">float</code> <code class="csharp plain">distance = Vector3.Distance(</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(chunk.Value.pos.x, 0, chunk.Value.pos.z),</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(transform.position.x, 0, transform.position.z));</code></div><div class="line number13 index12 alt2">&nbsp;</div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(distance &gt; 256)</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunksToDelete.Add(chunk.Key);</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number17 index16 alt2">&nbsp;</div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">foreach</code> <code class="csharp plain">(var chunk </code><code class="csharp keyword">in</code> <code class="csharp plain">chunksToDelete)</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">world.DestroyChunk(chunk.x, chunk.y, chunk.z);</code></div><div class="line number20 index19 alt1">&nbsp;</div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">timer = 0;</code></div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number23 index22 alt2">&nbsp;</div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">timer++;</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>The timer makes every tenth frame run the delete code, then for each chunk loaded we check the distance to the gameobject and if it's over 256 add it to a list of chunks to delete. Then we call DestroyChunk on all those chunks in the list and reset the timer.</p>
+
+<p>Add a call to DeleteChunks in Update:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_437384" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//LoadChunks.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">Update () {</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">DeleteChunks();</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">FindChunksToLoad();</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">LoadAndRenderChunks();</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>This should now smoothly load terrain and delete it behind you! Try it out!</p>
+
+<p>If you haven't added lights to the scene yet I recommend you add a directional light so you can see a little better and hard shadows enabled. Then set the ambient light in render settings to a light grey for nice shadows. Anyway it should look a little like this but with the chunks loading further away:</p>
+
+<p><img src="./Part 7_files/chunkgen.gif" style="width:50%;padding:10px;"></p>
+
+<p><br><br><br><br><br><br><br><br><br><br>
+In this example I'm using unity's first person controller with the LoadChunks script on it.
+<br><br>
+<a href="https://web.archive.org/web/20150318012606/http://alexstv.com/index.php/posts/unity-voxel-block-tutorial-pt-6" class="inline_button" style="background-color:#2D9AE3">Tutorial part 6</a><a href="https://web.archive.org/web/20150318012606/http://alexstv.com/downloads/voxeltut7.zip" class="inline_button" style="background-color:#2D9AE3">Download scripts so far</a><br><br></p>
+
+<p><a href="https://web.archive.org/web/20150318012606/https://twitter.com/stv_alex" class="inline_button" style="background-color:#77B1D1">Follow me on twitter</a><a href="https://web.archive.org/web/20150318012606/https://plus.google.com/+AlexandrosStavrinou/posts" class="inline_button" style="background-color:#D73D32">Add me on Google+</a><br><br></p>
+								</bodytext>
+							</div>
+						</div>	
+						
+
+					<section class="yspace"></section>
+					<div class="datestamp">
+						<stamptext>8th Feb, 2015</stamptext>
+					</div>
+					<div class="authorstamp">
+						<stamptext>Alex</stamptext>
+					</div>
+					<section class="yspace"></section>
+				</div>
+				
+				
+				
+								<div class="post">
+					<div id="filler">
+						<bodytext>
+							<form id="comment" class="commentform commentbox" method="post" action="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-7#comment">
+								
+								<p class="name">
+									<label for="name">Your name:</label>
+									<input name="name" id="name" type="text" placeholder="Your name" value="">								</p>
+
+								<p class="email">
+									<label for="email">Your email address:</label>
+									<input name="email" id="email" type="email" placeholder="Your email (won’t be published)" value="">								</p>
+
+								<p class="textarea">
+									<label for="text">Your comment:</label>
+									<textarea name="text" id="text" placeholder="Your comment"></textarea>								</p>
+
+								<p class="submit">
+									<button class="btn" type="submit">Post Comment</button>								</p>
+							</form>
+						</bodytext>
+					</div>
+					
+				</div>
+				
+				
+							
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Bruno </h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hello, Alex would like to know if you could give me a text file showing the steps to build the projects in unity, I am willing to tell me how leaves it ready on the scene this last tutorial, excuse me if I have lately been more inconvenient , is that I am Brazilian and I have full command of English.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #43</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jack</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Bruno
+
+Just go to file, build and run.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #44</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Nick</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hey Alex,
+
+Absolutely amazing tutorial, I've learned a lot. One thing I can't seem to figure out though is that I get black seams between my cubes. You can see it here: https://dl.dropboxusercontent.com/u/420534/black_seams.png
+Even using your textures, it still appears: https://dl.dropboxusercontent.com/u/420534/black_seams_orig.png
+
+It's even more pronounced if I add in anti-aliasing or something. Do you know of anything that could cause this?
+
+Thanks for everything -- you rock!							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #45</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jesse</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								The chunk loading on my pc was not exactly optimal. I found out by chaning the amount of chunk updates per frame. And the way how chunks are updated it would run way faster. Now at a nearly constant 40-60fps (running it on a Intel dualcore and 4GB without dedicated videocard in editor).
+This seems to have also solved a lot of grapical artifacts i had where  chunks would have where it would face another chunk. The new chunk would not have that exstra face but the chunk that already existed would.
+
+What is changed is instead of chaning the bool update. I call the updateChunk function directly.
+							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #46</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								I'm getting white seams between blocks? Other than that, great tutorial!							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #48</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								UPDATE: Setting the texture to clamp fixed the white seams. Not sure if I was supposed to do that already, but I fixed it.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #49</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Tosatsu</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Awesome tutorial series, keep up the good work!							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>4 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #52</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jacob</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hey, awesome tutorials! They have helped me understand a lot!
+
+I have been testing after each tutorial section, so I know the code ran without issue before I began tutorial 7. After tutorial 7, however, no terrain will generate because I get an infinite error of "NullReferenceExeption: Object reference not set to an instance of an object in LoadChunks.FindChunksToLoad()" and the same for LoadChunks.DeleteChunks().
+
+The indicated error lines are(in respective order):
+Chunk newChunk = world.GetChunk(newChunkPosition.x, newChunkPosition.y, newChunkPosition.z);
+
+AND
+
+foreach (var chunk in world.chunks
+...
+}
+
+
+I have just about pulled my hair out attempting to figure out why this is happening. If you can offer any help, I would appreciate it!
+							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>4 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #57</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jacob</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								In Reply to Jacob:
+
+Yes, I am dumb. All this effort to realize I forgot to set the World object to the script. Haha! :D							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>4 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #58</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jeff Drimsly</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Great tutorial as always! I do have a question that is a little off topic. How would I create blocks that have more vertices? When I try, it says "Mesh.uv is out of bounds. The supplied array needs to be the same size as the Mesh.vertices array."
+
+Thanks!							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #61</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>David</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Excellent tutorials!  Thanks for putting these together.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #62</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Andrea</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Jeff Drimsly I can only tell you that the number of UVs must be equal to the number of vertices, not more not less because they tell you how to wrap the texture around your mesh.
+If you change the number of vertices in the mesh you have to change the number of uv.
+Sorry i can't tell you more but uvs are still mostrly unknown to me.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #69</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jeff Drimsly</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Andrea Thank you very much, that helps a lot!							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #70</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe Albright</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								I have a question, how would i go about adding voxel lighting? I would like something like minecraft, where torches and other sources of light (including the sun) block out light, so caves would be pitch black. With normal unity lighting, caves are just slightely darker. 							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #71</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Paul</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Kobe I've been wondering the same thing. I think voxel lighting is more complicated than just using the lights and shaders you get with standard unity. Minecraft uses ambient occlusion to add depth to the voxels which is outlined here: http://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/  
+
+I tried some custom shaders from this tutorial: https://www.youtube.com/watch?v=eeKQAXg-Qo8
+but they don't work quite right. If you add or delete a block the textures get garbled / completely removed. Anyone know how to fix this?							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #72</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Paul</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Figured out why it was garbled when vertex lighting is used! There was never any colour info added to mesh. This code inserted in the RenderMesh function in chunk.cs will fix it. I used yellow for example:
+
+	// add colour - necessary for vertex based lighting
+		Color colorT = Color.yellow;
+		Color[] colors = new Color[filter.mesh.vertices.Length];
+		for (int i = 0; i &lt; colors.Length; i++) {
+			colors[i] = colorT;
+		}
+		filter.mesh.colors = colors;							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #74</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Simon</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Paul: please care to explain how did you apply the ambient occlusion from that YouTube video to the voxel engine presented in these tutorials? I thought those shaders should be baked and could not be used for real time applications like voxels where you create and destroy meshes all the time. Please I'm really really interested. And thanks for the tips about vertex colors! 
+
+@Alex: these tutorials are great! Please keep em coming and...How long for the next one? :P							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #75</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jess</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Alex - what a find! I have been puttering around with a voxel type game and knew I needed to convert to a chunk managed mesh, but was not sure how to implement it. Thank you so much for the great tutorial! I wish you continued success in every endeavor!							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #77</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Paul thanks! I was getting that same thing, but it makes sense that it was because there was no color data. Hopefully now we can figure out how to make amazing lighting! Ill post stuff if I find anything helpful.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #78</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@PAul I also need to know how to use that AO realtime please. Also, when I try to use vertex shading, even with that code, it makes everything invisible. 							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #80</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Fixed the invisible thing. I just need to figure out realtime.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #81</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Paul</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Kobe, I probably jumped the gun when I got excited and posted about the vertex shading working. You're right, the example in the first tutorial works by baking, but he included some shaders which use vertex shading. I figured I'd be able to use the formula in the second link (Ambient occlusion for Minecraft-like worlds) but my math isn't the greatest. Now I remember why I'm a designer and not an engineer. haha							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #82</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Paul Yeah, but working together I bet everyone on this tutorial can figure out how to make it work! I know the basics, you need vertex shading and to have light values for each block which get passed to every other block next to it - I just don't know how to code it. Guess I'm just a n00b. Lol.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #83</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Simon</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Now that Unity 5 is out with all the features, SSAO is also included in the standard package (Image Effects), but to me it doesn't seem that good compared to minecraft AO (which should be even simpler).
+Anyway guys the main problem here is the chunk generation time, it is far too high for any practical use.
+There are examples out there, even old ones, which use cache arrays to store chunk positions, and maybe some pooling system can be used, I tried to optimize the system proposed in these tutorials but still without luck.
+Hopefully Alex will study something about it because in my opinion it is far more important than lighting and shading, the terrain generation should run at 60fps constantly without any stuttering, and it surely possible without using multithreading solutions (which will be great after the first optimization).
+If anybody has any ideas how to optimize it, please share with us :)
+And Alex, please keep these amazing tutorials coming, it's been roughly a month now and it seems you already have at least AO and trees generation ready :P
+
+P.S. The main example I'm talking about is here: http://forum.unity3d.com/threads/after-playing-minecraft.63149/#post-404402 and there are others in the same topic.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #84</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Simon</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Also, do you guys know how to generate nice caves and caverns? I noticed that below ground level there is only a massive mega block with no caves.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #85</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Paul</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								I gotta stop spamming Alex's blog. I just realized he was already working on AO shading. If you check his twitter feed he has a screenshot of it. I can't wait for the tutorial to compare to my horrible attempt at it so far!
+
+I don't know how to code the caverns but I know the theory behind it is 3d noise. I think the simplex noise he uses in his tut is quite capable of 3d noise so it's probably a matter of messing around with the terrain script loop and maybe using noise octaves/channels to generate different effects and layer them. 
+
+Think I'll wait for the next tut and stop posting now. Good luck guys!
+
+							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #86</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Lyle</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hey Alex just wanted to thank you for your awesome work! I've learned so much in such a short time about voxel as well as random gen. One question that i'm sure you will add in but, how would i go about just placing something like blockGrass using the same trick that we did for removing them? If it requires a whole tut then ill just wait. I got it to work with Terrain.SetBlock but all that does obviously is change the block you are looking at not add another one. Either way thanks for the awesome work again.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 week ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #87</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Kobe</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Lyle You just have to set adjacent to true on a copy/pasted setblock. Set it to a different Key, also.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 week ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #88</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Menno</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								This is a truly awesome tutorial, you even learned me some good tricks with C# and let me understand the language a bit better.
+
+May I ask what a good solution would be to get some efficient pathfinding for AI working with this dynamic terrain? I am thinking about adding nodes to the chunks that hold the paths to get from one side to another and put those in a graph and traverse with A*. But what about nav meshes, would it be efficient and easy to implement these on this voxel terrain?
+
+To be a bit more specific, my AI needs to be restricted to walk on flat terrain, ramps and stairs only, they are not allowed to jump on and off blocks unless asked too.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 week ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #90</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Louis Terrell</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								How would you spawn trees?
+							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>4 days ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #92</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+							
+							
+			</article>
+	</div>
+
+
+		<div class="bg1">
+		<footer class="wrapper">
+			
+			<footer class="footer">
+	                <div class="fiftyfifty" style="padding:10px;"><bodytext>© 2015 AlexStv. All rights reserved.</bodytext></div>
+					<div class="fiftyfifty"><form id="search" action="https://web.archive.org/web/20150318012606/http://alexstv.com:80/index.php/search" method="post">
+					<bodytext>Search: </bodytext>
+					<input type="search" style="width:300px; padding:10px; border: 1px solid #e8e8e8;
+						-webkit-border-radius: 3px;
+						-moz-border-radius: 3px;
+						border-radius: 3px;" id="term" name="term" placeholder="Type here and hit enter to search" value=""></form></div>
+					
+			</footer>
+			 
+        </footer>
+		</div>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//web.archive.org/web/20150318012606/http://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-58007562-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+			
+    
+
+<!--
+playback timings (ms):
+  LoadShardBlock: 46.365 (3)
+  esindex: 0.006
+  captures_list: 64.951
+  CDXLines.iter: 11.794 (3)
+  PetaboxLoader3.datanode: 92.429 (4)
+  exclusion.robots: 0.283
+  exclusion.robots.policy: 0.272
+  RedisCDXSource: 3.371
+  PetaboxLoader3.resolve: 32.866
+  load_resource: 112.208
+--></body></html>

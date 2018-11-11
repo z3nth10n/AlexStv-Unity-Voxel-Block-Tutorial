@@ -1,0 +1,353 @@
+.container:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+
+body {
+	background-color:#fff;
+	margin:0px 0px;
+	-webkit-font-smoothing: antialiased;
+}
+
+a{
+	text-decoration:none;
+	color:#888;
+}
+
+a:hover{color:#999;}
+
+.wrapper {
+	min-width: 600px;
+	max-width: 960px;
+	margin: 0px auto;
+	overflow:auto;
+}
+
+.bg1{
+	background-color:#fff;
+	overflow:hidden;
+	float:left;
+	width:100%;
+}
+
+.bg2{
+	background-color:#eee;
+
+}
+
+.center{
+	margin:0px auto;
+	height:auto;
+}
+.full{
+	float:left;
+	width: 100%;
+}
+
+
+header{
+	width:100%;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:40px;
+	transition: all 0.1s;
+	background-color:rgba(255, 255, 255, 0.1);
+}
+
+.pagewrapper{
+	overflow:auto;
+	width:auto;
+	height:auto;
+	margin: 10px 10px;
+	margin: 0px auto;
+}
+
+.page{
+	float:left;
+	padding:10px;
+	transition: all 0.1s;
+	width:160px;
+	background-color:rgba(255, 255, 255, 0.1);
+	text-align:center;
+	overflow:visible;
+}
+.page:hover{
+background-color:rgba(255, 255, 255, 0.2);
+}
+
+#wrap{
+	margin: 0px auto;
+}
+
+img{
+	max-width: 100%;
+	height:auto;
+	float:left;
+}
+
+section{
+	float:left;
+}
+
+.column{
+	width:48%;
+	
+}
+
+.spacer{
+	width:2%;
+	height:10px;
+}
+.smallspace{
+	width:1%;
+	height:10px;
+}
+
+.yspace{
+	width: 100%;
+	height:20px;
+}
+
+.padder{
+	padding:20px;
+	float:left;
+	width:auto;
+}
+
+.post{
+	background-color:#fff;
+	border: 1px solid #e8e8e8;
+	width:100%;
+	height:auto;
+	margin:25px 0px;
+	overflow:auto;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.infobox{
+	background-color:#f9f6ea;
+	font-size:10pt;
+	width:100%;
+	height:auto;
+	color: #8b7c65;
+	padding:15px 20px;
+	padding-bottom: 0px;
+	overflow:auto;
+	border: 3px solid #EEECE8;
+		-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.warnbox{
+	background-color:#DB3000;
+	font-size:12pt;
+	width:100%;
+	color:#fff;
+	height:auto;
+	padding:15px 20px;
+	padding-bottom: 0px;
+	overflow:auto;
+	border: 3px solid #911F00;
+		-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.codeblock{
+	width:100%;
+	float:left;
+	margin:0px;
+	
+}
+.codeblock p{
+	display: none;
+}
+
+.codeblock pre{
+	margin:0px;
+	padding:0px;
+}
+
+.centerimg{
+	width:480px;
+	margin:0px 25%;
+	overflow:auto;
+	display:block;
+	padding:10px;
+	height:auto;
+	float:left;
+}
+
+.inline_button{
+	padding:30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height:auto;
+	float:left;
+	border-radius: 6px;
+	text-align:center;
+	margin-right:30px;
+	color:#eee;
+	border:3px solid #fff;
+	transition: all 0.1s;
+}
+
+.inline_button:hover{
+	border:3px solid #ccc;
+	color:#fff;
+}
+
+.description {
+	float:left;
+	padding:30px;
+	padding-bottom:10px;
+}
+.datestamp {
+	float:left;
+	padding-left:20px;
+}
+
+.authorstamp {
+	float:right;
+	text-align:right;
+	padding-right:20px;
+}
+
+.footer{
+	text-align:center;
+	padding:20px;
+	
+}
+
+h1{
+	font-family: 'roboto slab', helvetica, arial;
+}
+
+stamptext {
+font-family: 'Open Sans', helvetica, arial;
+font-size: 13pt;
+color: #e1e1e1;
+line-height: 120%;
+}
+
+infoboxtext {
+font-family: 'Open Sans', helvetica, arial;
+line-height: 160%;
+}
+
+bodytext {
+font-family: 'Open Sans', helvetica, arial;
+font-size: 13pt;
+color: #555;
+line-height: 170%;
+}
+
+titletext {
+font-family: 'roboto slab', arial;
+text-shadow: 1px 1px #000;
+font-size: 40px;
+color: #fff;
+line-height: 120%;
+}
+
+h2{
+
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#comment {
+	overflow: hidden;
+}
+	#comment label[for] {
+		display: none;
+	}
+	#comment p {
+		float: left;
+		width: 48%;
+		margin-right: 4%;
+		margin-bottom: 10px;
+
+		text-indent: 0;
+	}
+		#comment p + p {
+			margin-right: 0;
+		}
+		#comment p.textarea {
+			float: none;
+			width: 100%;
+		}
+	#comment input, #comment textarea {
+		width: 100%;
+		padding: 10px 15px;
+
+		font-size: 15px;
+		font-weight: normal;
+
+		border: 1px solid rgba(22,36,54,.2);
+		border-radius: 4px;
+	}
+		#comment input:focus, #comment textarea:focus {
+			outline: none;
+			background: #f7f9fc;
+		}
+		#comment textarea {
+			min-height: 150px;
+			max-height: 800px;
+			resize: vertical;
+		}
+	#comment button {
+		display: inline-block;
+		padding: 9px 18px;
+
+		background: #4e82ce;
+		color: #fff;
+
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+
+		font-size: 13px;
+		font-weight: 500;
+	}
+		#comment button:hover {
+			background: #3c6eb7;
+		}
+		
+		.fiftyfifty{
+		float:left;
+			width:50%;
+			padding-bottom:20px;
+		}
+		
+.commentbox{
+	padding:20px;
+	
+}
+
+/*
+     FILE ARCHIVED ON 02:48:00 Mar 29, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:08:27 Nov 11, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 64.144 (3)
+  esindex: 0.011
+  captures_list: 83.31
+  CDXLines.iter: 11.97 (3)
+  PetaboxLoader3.datanode: 76.528 (4)
+  exclusion.robots: 0.165
+  exclusion.robots.policy: 0.154
+  RedisCDXSource: 1.734
+  PetaboxLoader3.resolve: 27.655
+  load_resource: 69.028
+*/

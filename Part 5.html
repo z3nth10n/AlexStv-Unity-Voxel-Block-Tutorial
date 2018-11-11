@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Part 5_files/analytics.js.descarga"></script><script src="./Part 5_files/analytics.js(1).descarga" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app105.us.archive.org';v.server_ms=135;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./Part 5_files/ait-client-rewrite.js.descarga" charset="utf-8"></script>
+<script type="text/javascript">
+WB_wombat_Init('https://web.archive.org/web', '20150311034436', 'alexstv.com:80');
+</script>
+<script type="text/javascript" src="./Part 5_files/wbhack.js.descarga" charset="utf-8"></script>
+<script type="text/javascript">
+__wbhack.init('https://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="./Part 5_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Part 5_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+		
+		<title>AlexStv</title>
+
+		<meta name="description" content="Code and things">
+
+		<link rel="stylesheet" href="./Part 5_files/reset.css">
+		<link rel="stylesheet" href="./Part 5_files/style.css">
+		
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/feeds/rss">
+		<link rel="shortcut icon" href="https://web.archive.org/web/20150311034436im_/http://alexstv.com:80/themes/AnchoredGallery/img/favicon.png">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script>var base = '/themes/AnchoredGallery/';</script>
+		<script src="./Part 5_files/zepto.js.descarga"></script>
+		<script src="./Part 5_files/main.js.descarga"></script>
+		
+		<link href="./Part 5_files/css" rel="stylesheet" type="text/css">
+		<link href="./Part 5_files/css(1)" rel="stylesheet" type="text/css">
+		<link type="text/css" rel="Stylesheet" href="./Part 5_files/shCoreRDark.css">
+
+
+	    <meta name="viewport" content="width=600">
+	    <meta name="generator" content="Anchor CMS">
+
+	    <meta property="og:title" content="AlexStv">
+	    <meta property="og:type" content="website">
+	    <meta property="og:url" content="posts/unity-voxel-block-tutorial-pt-5">
+	    <meta property="og:image" content="/web/20150311034436im_/http://alexstv.com:80/themes/AnchoredGallery/img/og_image.gif">
+	    <meta property="og:site_name" content="AlexStv">
+	    <meta property="og:description" content="Code and things">
+
+		
+		<!-- Include required JS files -->
+		<script type="text/javascript" src="./Part 5_files/shCore.js.descarga"></script>
+		<script type="text/javascript" src="./Part 5_files/shBrushCSharp.js.descarga"></script>
+
+        <script type="text/javascript" src="./Part 5_files/jquery.min.js.descarga"></script>
+        <!-- Include jQuery Syntax Highlighter -->
+        <script type="text/javascript" src="./Part 5_files/jquery.syntaxhighlighter.min.js.descarga"></script>
+        <!-- Initialise jQuery Syntax Highlighter -->
+        <script type="text/javascript">$.SyntaxHighlighter.init();</script>
+        <!-- Initialise jQuery Syntax Highlighter -->
+        <script type="text/javascript">
+          $.SyntaxHighlighter.init({
+          'alternateLines':true
+
+          });
+        </script>
+	
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+	</script><script type="text/javascript" src="./Part 5_files/prettify.min.js.descarga" id="script-httpswebarchiveorgweb20150323181528httpbaluptongithubcomjquerysyntaxhighlighterprettifyprettifyminjs"></script><link type="text/css" rel="stylesheet" media="screen" href="./Part 5_files/prettify.min.css" id="stylesheet-httpswebarchiveorgweb20150323181528httpbaluptongithubcomjquerysyntaxhighlighterprettifyprettifymincss"><link type="text/css" rel="stylesheet" media="screen" href="./Part 5_files/style.min.css" id="stylesheet-httpswebarchiveorgweb20150323181528httpbaluptongithubcomjquerysyntaxhighlighterstylesstylemincss"><link type="text/css" rel="stylesheet" media="screen" href="./Part 5_files/theme-balupton.min.css" id="stylesheet-httpswebarchiveorgweb20150323181528httpbaluptongithubcomjquerysyntaxhighlighterstylesthemebaluptonmincss"></head>
+	
+	
+
+	<body class="posts home"><div id="wm-ipp" lang="en" style="display: block; direction: ltr;">
+<div style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:130px;padding-top:10px;">
+      <a href="https://web.archive.org/web/" title="Wayback Machine home page"><img src="./Part 5_files/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5#" onclick="__wm.saveSnapshot(&#39;http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5&#39;, &#39;20150311034436&#39;)" title="Share via My Web Archive" id="wm-save-snapshot-open" style="display: none;">
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: inline-block;">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web" style="display: none;"></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" style="text-align:right;">
+	<a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5#" onclick="window.open(&#39;https://www.facebook.com/sharer/sharer.php?u=https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5#" onclick="window.open(&#39;https://twitter.com/intent/tweet?text=https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5&amp;via=internetarchive&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="https://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5" onfocus="this.focus();this.select();" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20150311034436"><input type="submit" value="Go"></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20150201044927/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5" title="01 Feb 2015"><strong>Feb</strong></a></td>
+		  <td class="c" id="displayMonthEl" title="You are here: 03:44:36 Mar 11, 2015">MAR</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20150511004104/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5" title="11 May 2015"><strong>May</strong></a></td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20150201044927/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5" title="04:49:27 Feb 01, 2015"><img src="./Part 5_files/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 03:44:36 Mar 11, 2015">11</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20150511004104/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5" title="00:41:04 May 11, 2015"><img src="./Part 5_files/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap">2014</td>
+		  <td class="c" id="displayYearEl" title="You are here: 03:44:36 Mar 11, 2015">2015</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20160329093212/http://alexstv.com/index.php/posts/unity-voxel-block-tutorial-pt-5" title="29 Mar 2016"><strong>2016</strong></a></td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures"><a class="t" href="https://web.archive.org/web/*/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5" title="See a list of every capture for this URL">27 captures</a><div class="r" title="Timespan for captures of this URL">31 Jan 2015 - 17 Oct 2017</div></div>
+	  </td>
+	  <td class="k">
+	    <a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="575" height="27" border="0"></canvas>
+	      <div class="yt" style="display: none; width: 25px; height: 27px;"></div><div class="mt" style="display: none; width: 2px; height: 27px;"></div></div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+            <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="./Part 5_files/loading.gif" alt="loading"></div>
+    </div>
+  </div></div></div></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="./Part 5_files/timestamp.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 5_files/graph-calc.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 5_files/auto-complete.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 5_files/toolbar.js.descarga" charset="utf-8"></script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<script type="text/javascript">
+__wm.bt(575,27,25,2,"web","http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5","2015-03-11",1996);
+</script><div class="wb-autocomplete-suggestions "></div>
+<!-- END WAYBACK TOOLBAR INSERT -->
+	
+			<div style="background-color:#4774A5; overflow:hidden; background-position:center; background-image:url(&#39;https://web.archive.org/web/20150311034436im_/http://4.bp.blogspot.com/-9w7pH08mSaM/UGbaDEz3kOI/AAAAAAAADeI/9XWFFsdLdwg/s1600/body.png&#39;);background-repeat:repeat;">
+	<article class="wrapper">
+		<a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/">
+			<header>
+				<titletext>AlexStv</titletext>
+			</header>
+		</a>
+		
+											
+						
+					
+			<div class="pagewrapper" style="width:100%">
+																	
+														<a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/category/general" title="General">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>General (2)</stamptext>
+						</div>
+					</a>
+										<a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/category/voxels" title="Voxels">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>Voxels (7)</stamptext>
+						</div>
+					</a>
+										<a href="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/category/grapple" title="Grapple">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>Grapple (3)</stamptext>
+						</div>
+					</a>
+													
+			</div>
+			</article>
+	</div>
+
+
+		
+		
+	
+		
+	
+	
+
+	
+	
+
+<div class="bg2">
+	<article class="wrapper">
+<div class="post">
+									<div id="filler">
+							              <div class="description" style="width:100%; padding-bottom:30px; background-color:#3C5C89;">
+
+                                        <h1 style="color:#fff;">Unity voxel block tutorial pt. 5</h1>
+						</div>
+						</div>
+					
+						<div id="filler">
+							<div class="description">
+								<bodytext>
+									<p>Now we'll take a look at saving and loading block data for creating a persistent world and look at some ways to optimise our save files. To save our blocks we'll serialize them as binary and then de serialize them to load them back into the game.</p>
+
+<p>We'll keep all the serialization stuff in a class so <strong>create a new script called Serialization</strong> and make it a static class with no inheritance. In addition you'll need to include some references that we'll be needing for the serialization so make sure your new class is set up like this:
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_498565" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number3 index2 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">System.IO;</code></div><div class="line number4 index3 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System;</code></div><div class="line number5 index4 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">System.Runtime.Serialization.Formatters.Binary;</code></div><div class="line number6 index5 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System.Runtime.Serialization;</code></div><div class="line number7 index6 alt2">&nbsp;</div><div class="line number8 index7 alt1"><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">class</code> <code class="csharp plain">Serialization</code></div><div class="line number9 index8 alt2"><code class="csharp plain">{</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>What we'll do is create a save file for every chunk that can be loaded individually that is saved to a folder in the game's directory. First we'll create two functions that decide where to save our chunk. Let's create the function SaveLocation that will give use the save directory. Before we can do that though we're going to need the world class to have a name so that we can tell our saves apart when we have more that one world. First you'll need to <strong>open your World script</strong> and add a new variable for the name of the world:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_920306" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">string</code> <code class="csharp plain">worldName = </code><code class="csharp string">"world"</code><code class="csharp plain">;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>This will give us the name of the world to identify the saves, now <strong>switch back to our new Serialize script</strong> and we can add a variable for the save folder name:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_391825" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">string</code> <code class="csharp plain">saveFolderName = </code><code class="csharp string">"voxelGameSaves"</code><code class="csharp plain">;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And then add the function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_419845" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">string</code> <code class="csharp plain">SaveLocation(</code><code class="csharp keyword">string</code> <code class="csharp plain">worldName)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">string</code> <code class="csharp plain">saveLocation = saveFolderName + </code><code class="csharp string">"/"</code> <code class="csharp plain">+ worldName + </code><code class="csharp string">"/"</code><code class="csharp plain">;</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!Directory.Exists(saveLocation))</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Directory.CreateDirectory(saveLocation);</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">saveLocation;</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>This location will be placed within your game's directory in a folder named by saveFolderName with a folder for every world.</p>
+
+<p>Now we need the name of the actual file we're going to save to so we'll add another function to make a string file name from the chunk's location:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_877993" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">string</code> <code class="csharp plain">FileName(WorldPos chunkLocation)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">string</code> <code class="csharp plain">fileName = chunkLocation.x + </code><code class="csharp string">","</code> <code class="csharp plain">+ chunkLocation.y+ </code><code class="csharp string">","</code> <code class="csharp plain">+ chunkLocation.z +</code><code class="csharp string">".bin"</code><code class="csharp plain">;</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">fileName;</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>We just need to take the position, separate the components with commas and add .bin as the extension because its going to be a binary file.</p>
+
+<p>Now we'll make a few changes to other scripts before we continue,  <strong>open the Chunk script</strong> and change the block array from private to public:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_304710" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//&nbsp;&nbsp;&nbsp; private Block[, ,] blocks = new Block[chunkSize, chunkSize, chunkSize];</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">Block[, ,] blocks = </code><code class="csharp keyword">new</code> <code class="csharp plain">Block[chunkSize, chunkSize, chunkSize];</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Next we can make the save function which will use these to decide the file location:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_689385" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">void</code> <code class="csharp plain">SaveChunk(Chunk chunk)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">string</code> <code class="csharp plain">saveFile = SaveLocation(chunk.world.worldName);</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">saveFile += FileName(chunk.pos);</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">IFormatter formatter = </code><code class="csharp keyword">new</code> <code class="csharp plain">BinaryFormatter();</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Stream stream = </code><code class="csharp keyword">new</code> <code class="csharp plain">FileStream(saveFile, FileMode.Create, FileAccess.Write, FileShare.None);</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">formatter.Serialize(stream, chunk.blocks);</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">stream.Close();</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Firstly we use the functions we made earlier to create a file path for our new file. Then we create a BinaryFormatter and a Filestream with the file location and create and write access. Then we use formatter.Serialize with the stream and the chunk's block array. Serializing array is about the simplest thing we can do but later on we can look at including some more information with the save and at what we could do to save less. Lastly close the file stream. Now we can save any chunk at any time with Serialization.Save(Chunk). But that's useless without a load function so we'll add another function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_45644" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">bool</code> <code class="csharp plain">Load(Chunk chunk)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">string</code> <code class="csharp plain">saveFile = SaveLocation(chunk.world.worldName);</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">saveFile += FileName(chunk.pos);</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!File.Exists(saveFile))</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">false</code><code class="csharp plain">;</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">IFormatter formatter = </code><code class="csharp keyword">new</code> <code class="csharp plain">BinaryFormatter();</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">FileStream stream = </code><code class="csharp keyword">new</code> <code class="csharp plain">FileStream(saveFile, FileMode.Open);</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunk.blocks = (Block[,,]) formatter.Deserialize(stream);</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">stream.Close();</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>What this does is populate a chunk with the save if there is one. So we get a file location, if it doesn't exist we return false so the function that called it knows that there was nothing to load. Then using another binary formatter and file stream we can de serialize the file as a Block array and set the chunk's block array to that. Then we close the stream and return true.</p>
+
+<p>Now to make the blocks themselves serializable we'll need to mark them as such, we'll start with the Block script so <strong>open Block.cs</strong> and we'll add two lines:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_329186" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;</code><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;</code><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;</code><code class="csharp keyword">using</code> <code class="csharp plain">System;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="csharp comments">//Add this line</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;</code><code class="csharp plain">[Serializable]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="csharp comments">//And this line</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">class</code> <code class="csharp plain">Block</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;</code><code class="csharp plain">{</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">...</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>The [Serializable] tag lets the class be saved as binary including all the private variables and it requires System to work so we need to include that dependency. You will need to <strong>add this to every block class</strong> so that they can all be saved. If you miss any it will raise an exception while attempting to save.</p>
+
+<p>Now we can save and load any chunk we want! Next we'll try and use these functions. <strong>Open the World script</strong> and we'll add saving and loading when creating and destroying chunks. Starting with the destroy chunk function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_172892" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">void</code> <code class="csharp plain">DestroyChunk(</code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Chunk chunk = </code><code class="csharp keyword">null</code><code class="csharp plain">;</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(chunks.TryGetValue(</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(x, y, x), </code><code class="csharp keyword">out</code> <code class="csharp plain">chunk))</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Serialization.SaveChunk(chunk);&nbsp;&nbsp;&nbsp; </code><code class="csharp comments">//Add this line to the function</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">UnityEngine.Object.Destroy(chunk.gameObject);</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunks.Remove(</code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(x, y, x));</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>That will ensure that every time you destroy a block it's saved. Now we can also make it load the saved chunk when we create a new chunk, we'll need to try and load the chunk but if it fails it has to load the default chunk.</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_10571" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div><div class="line number44 index43 alt1">44</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">void</code> <code class="csharp plain">CreateChunk(</code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z) </code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//the coordinates of this chunk in the world</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">WorldPos worldPos = </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(x, y, z);</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Instantiate the chunk at the coordinates using the chunk prefab</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">GameObject newChunkObject = Instantiate(</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunkPrefab, </code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(worldPos.x, worldPos.y, worldPos.z),</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Quaternion.Euler(Vector3.zero)</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">) </code><code class="csharp keyword">as</code> <code class="csharp plain">GameObject;</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Get the object's chunk component</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Chunk newChunk = newChunkObject.GetComponent&lt;Chunk&gt;();</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Assign its values</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">newChunk.pos = worldPos;</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">newChunk.world = </code><code class="csharp keyword">this</code><code class="csharp plain">;</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Add it to the chunks dictionary with the position as the key</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunks.Add(worldPos, newChunk);</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Add these three lines:</code></div><div class="line number23 index22 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">bool</code> <code class="csharp plain">loaded = Serialization.Load(newChunk);</code></div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(loaded)</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code><code class="csharp plain">;</code></div><div class="line number26 index25 alt1">&nbsp;</div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">xi = 0; xi &lt; 16; xi++)</code></div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number29 index28 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">yi = 0; yi &lt; 16; yi++)</code></div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">zi = 0; zi &lt; 16; zi++)</code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number33 index32 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(yi &lt;= 7)</code></div><div class="line number34 index33 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number35 index34 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">SetBlock(x + xi, y + yi, z + zi, </code><code class="csharp keyword">new</code> <code class="csharp plain">BlockGrass());</code></div><div class="line number36 index35 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number37 index36 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">else</code></div><div class="line number38 index37 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">SetBlock(x + xi, y + yi, z + zi, </code><code class="csharp keyword">new</code> <code class="csharp plain">BlockAir());</code></div><div class="line number40 index39 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number41 index40 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number42 index41 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number43 index42 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number44 index43 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Add the lines 23, 24 and 25. This will try to load the chunk and set the return value to the boolean loaded. Then we can check it and if we loaded successfully return otherwise continue and generate the chunk.</p>
+
+<p>We also need a way to test this so we'll make a function for destroying and creating chunks so add the following variables to the world script to specify the chunk position and a boolean to trigger the function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_276984" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">int</code> <code class="csharp plain">newChunkX;</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">int</code> <code class="csharp plain">newChunkY;</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">int</code> <code class="csharp plain">newChunkZ;</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">bool</code> <code class="csharp plain">genChunk;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Then add add this to the update function:
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_67537" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// Update is called once per frame</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">Update () {</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(genChunk)</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">genChunk = </code><code class="csharp keyword">false</code><code class="csharp plain">;</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">WorldPos chunkPos = </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(newChunkX, newChunkY, newChunkZ);</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Chunk chunk = </code><code class="csharp keyword">null</code><code class="csharp plain">;</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(chunks.TryGetValue(chunkPos, </code><code class="csharp keyword">out</code> <code class="csharp plain">chunk))</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">DestroyChunk(chunkPos.x, chunkPos.y, chunkPos.z);</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">else</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">CreateChunk(chunkPos.x, chunkPos.y, chunkPos.z);</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>This will make it so that when you enable the bool genChunk it will check for a chunk in that position and if found save and destroy it and if not found it will create a new chunk there. Try it out in game by making some changes to a chunk, then destroy and re create it. Your changes should still be there. The chunk will be saved to a folder in your game directory.</p>
+
+<p>You should now be able to start the game, make changes to a block, destroy the chunk containing it using the inspector (put the chunk's coordinates in the inspector variables then set genChunk to true) and then create the chunk again by pressing gen chunk with the same coordinates or start and stop the game and your changes should persist.</p>
+
+<h3>Optimization</h3>
+
+<p>This is the most basic approach to saving but the biggest problem with it is the file size, each chunk will create a 57kb save file and every chunk is saved. This means that a player travelling a long distance will save every block of every chunk loaded. We would rather just save the blocks the player changes and not even save chunks the player hasn't changed.</p>
+
+<p>We'll start by adding a boolean to each block indicating whether the block is new so <strong>add this variable to Block.cs</strong>:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_652718" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">bool</code> <code class="csharp plain">changed = </code><code class="csharp keyword">true</code><code class="csharp plain">;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>It will be true by default so that every block is considered a player change to be saved unless told otherwise. We will need a way to mark all the blocks we add for new block's, the non-player added blocks. So <strong>open the chunk.cs script</strong> and add the following function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_683749" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">void</code> <code class="csharp plain">SetBlocksUnmodified()</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">foreach</code> <code class="csharp plain">(Block block </code><code class="csharp keyword">in</code> <code class="csharp plain">blocks)</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">block.changed = </code><code class="csharp keyword">false</code><code class="csharp plain">;</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>We won't use this function just yet, we will later on use it in the create chunk script to mark all the automatic terrain as unchanged but first we'll be creating a new class for our save files. This new class will contain everything we want to serialize so we can stop using an array. <strong>Create a new script called Save</strong> and set it up like this:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_386926" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number3 index2 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections.Generic;</code></div><div class="line number4 index3 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp plain">[Serializable]</code></div><div class="line number7 index6 alt2"><code class="csharp keyword">public</code> <code class="csharp keyword">class</code> <code class="csharp plain">Save {</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>It's serializable so we can use it to save. In this case we'll use a dictionary to store the blocks we're saving but there are a lot of structures to store save data you can look into. We'll use the WorldPos struct we set up earlier as the key with the block as the value so the WorldPos struct needs to be serializable as well so add the Using system and [Serializable] tags to the <strong>WorldPos file</strong> as well:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_515141" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//WorldPos.cs</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number3 index2 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number4 index3 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp plain">[Serializable]</code></div><div class="line number7 index6 alt2"><code class="csharp keyword">public</code> <code class="csharp keyword">struct</code> <code class="csharp plain">WorldPos {</code></div><div class="line number8 index7 alt1"><code class="csharp plain">...</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And now <strong>switch back the the Save script</strong> and add the dictionary variable:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_604322" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">Dictionary&lt;WorldPos, Block&gt; blocks = </code><code class="csharp keyword">new</code> <code class="csharp plain">Dictionary&lt;WorldPos,Block&gt;();</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And next we'll need a way to get all the blocks from the chunk into our dictionary so add a function to do that:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_101022" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">Save(Chunk chunk)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">x = 0; x &lt; Chunk.chunkSize; x++)</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">y = 0; y &lt; Chunk.chunkSize; y++)</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">z = 0; z &lt; Chunk.chunkSize; z++)</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!chunk.blocks[x, y, z].changed)</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">continue</code><code class="csharp plain">;</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">WorldPos pos = </code><code class="csharp keyword">new</code> <code class="csharp plain">WorldPos(x,y,z);</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">blocks.Add(pos, chunk.blocks[x, y, z]);</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>We look through every block in the chunk and if the changed boolean is true we add it to the dictionary using the position as the key. No we'll implement this in the serialization class so <strong>open Serialization.cs</strong> and first we'll make these changes to the save function:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_188439" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">void</code> <code class="csharp plain">SaveChunk(Chunk chunk)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Save save = </code><code class="csharp keyword">new</code> <code class="csharp plain">Save(chunk);&nbsp;&nbsp;&nbsp; </code><code class="csharp comments">//Add these lines</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(save.blocks.Count == 0)&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="csharp comments">//to the start</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code><code class="csharp plain">;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="csharp comments">//of the function</code></div><div class="line number6 index5 alt1">&nbsp;</div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">string</code> <code class="csharp plain">saveFile = SaveLocation(chunk.world.worldName);</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">saveFile += FileName(chunk.pos);</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">IFormatter formatter = </code><code class="csharp keyword">new</code> <code class="csharp plain">BinaryFormatter();</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Stream stream = </code><code class="csharp keyword">new</code> <code class="csharp plain">FileStream(saveFile, FileMode.Create, FileAccess.Write, FileShare.None);</code></div><div class="line number12 index11 alt1">&nbsp;</div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">formatter.Serialize(stream, save);&nbsp; </code><code class="csharp comments">//And change this to use save instead of chunk.blocks</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">stream.Close();</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>There, that will create a dictionary with the changes to use for saving, then check that there actually are things to be saved in the file and if not return early and lastly we serialize this dictionary instead of the entire block array.</p>
+
+<p>Now you will also need to go in and delete any saves you made previously with the other system because they will conflict with the new loader we're about to write. Right now it's easy to rewrite the saving and loading code but when you reach a point with players actually using your game changing it will make their files incompatible so you'll have to keep this in mind when updating your game that you include backwards compatibility to upgrade save files.</p>
+
+<p>Now we'll change the load function so remove the line:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_773132" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunk.blocks = (Block[,,]) formatter.Deserialize(stream);</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>And in its place put this:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_443702" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Save save = (Save)formatter.Deserialize(stream);</code></div><div class="line number2 index1 alt1">&nbsp;</div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">foreach</code> <code class="csharp plain">(var block </code><code class="csharp keyword">in</code> <code class="csharp plain">save.blocks)</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">chunk.blocks[block.Key.x, block.Key.y, block.Key.z] = block.Value;</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Now we deserialize the changed blocks and set their position in the chunk to their value. This is just the modified blocks though so we'll have to do the same generation every time we load the chunk and then apply these changes on top of it so we'll <strong>switch to the World.cs script</strong> to change the CreateChunk function.</p>
+
+<p>previously we tried to load the chunk from the save and if it succeeded we returned from the function, otherwise we filled the chunk with blocks. Instead we will now fill the chunks with blocks regardless and then try loading the save file on top of it. So first of all remove the lines used for loading before:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_86319" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//bool loaded = Serialization.Load(newChunk);&nbsp;&nbsp;&nbsp; Remove these lines</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//if (loaded)</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//return;</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>We're left with a function that creates a new chunk from scratch every time. Now at the end of the function add these lines:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_629749" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">newChunk.SetBlocksUnmodified();</code></div><div class="line number2 index1 alt1">&nbsp;</div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Serialization.Load(newChunk);</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>First with the chunk we've generated from scratch we mark all the blocks in it as unmodified, these are not player created they are the default state of the block so the don't need to be saved. Then we apply the changes made by the player to the chunk with the Load function. Because we mark the blocks as unmodified before playing our saved changes on top of the chunk when we call save on it again it will save all the block changes we loaded from the save and any changes we've made since loading.</p>
+
+<p></p><div class="infobox"><infoboxtext><p>Another option would be to put the SetBlocksUnmodified after loading. Then if there are any modified blocks they are modified since loading and are not included in the existing save file so to save the changes we would deserialize the save file to a variable and then get the current unmodified blocks and add them to the variable then save that. This would mean that we could save less often because we only save when there are new changes to save but saving would require an extra step. How you do this depends a lot on what type of game you're making so consider this part of your game carefully.</p></infoboxtext></div><p></p>
+
+<p>If you create a chunk, edit it and destroy it you should have a fairly small save file you can load by creating the chunk again. </p>
+
+<p><a href="https://web.archive.org/web/20150311034436/http://alexstv.com/index.php/posts/unity-voxel-block-tutorial-pt-4" class="inline_button" style="background-color:#2D9AE3">Tutorial part 4</a><a href="https://web.archive.org/web/20150311034436/http://alexstv.com/downloads/voxeltut5.zip" class="inline_button" style="background-color:#2D9AE3">Download scripts so far</a>
+<a href="https://web.archive.org/web/20150311034436/http://alexstv.com/index.php/posts/unity-voxel-block-tutorial-pt-6" class="inline_button" style="background-color:#2D9AE3">Tutorial part 6</a><br><br></p>
+
+<p><a href="https://web.archive.org/web/20150311034436/https://twitter.com/stv_alex" class="inline_button" style="background-color:#77B1D1">Follow me on twitter</a><a href="https://web.archive.org/web/20150311034436/https://plus.google.com/+AlexandrosStavrinou/posts" class="inline_button" style="background-color:#D73D32">Add me on Google+</a><br><br></p>
+								</bodytext>
+							</div>
+						</div>	
+						
+
+					<section class="yspace"></section>
+					<div class="datestamp">
+						<stamptext>11th Jan, 2015</stamptext>
+					</div>
+					<div class="authorstamp">
+						<stamptext>Alex</stamptext>
+					</div>
+					<section class="yspace"></section>
+				</div>
+				
+				
+				
+								<div class="post">
+					<div id="filler">
+						<bodytext>
+							<form id="comment" class="commentform commentbox" method="post" action="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial-pt-5#comment">
+								
+								<p class="name">
+									<label for="name">Your name:</label>
+									<input name="name" id="name" type="text" placeholder="Your name" value="">								</p>
+
+								<p class="email">
+									<label for="email">Your email address:</label>
+									<input name="email" id="email" type="email" placeholder="Your email (won’t be published)" value="">								</p>
+
+								<p class="textarea">
+									<label for="text">Your comment:</label>
+									<textarea name="text" id="text" placeholder="Your comment"></textarea>								</p>
+
+								<p class="submit">
+									<button class="btn" type="submit">Post Comment</button>								</p>
+							</form>
+						</bodytext>
+					</div>
+					
+				</div>
+				
+				
+							
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jack</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								I dont see any save file being created.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #28</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>AlexStv</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Jack, make sure you're looking in the project folder, not the assets folder and double check what your save folder name (saveFolderName) is set to in the serialization class. If it still doesn't show up try using the serialization script from the finished scripts for this part and see if that changes anything.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #31</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Zymosis</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								It seems there is a bit of a typo in the beginning:
+
+"First you'll need to open your World script and add a new variable for the name of the world:"
+
+then you added this line "public static string saveFolderName = "voxelGameSaves";"
+
+it should be set in the Serialization script otherwise there will be an error							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #33</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>David</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hi Alex, I have a problem, I have the same code you have in 5th tutorial. I create the .exe file and execute it. I destroy some cubes, close the game and open again. When I start the game there is nothing changed. Why? Thank's and sorry for my english							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #34</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jack</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Alex,
+
+I even used your whole asset bundle, same thing							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #35</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>AlexStv</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Zymosis You're right that section was really jumbled up, I think I've fexed it now thanks.
+
+@David closing the game won't save your changes, you'll need to use the DestroyChunk function on the chunk to save it to trigger the save script. If you create a chunk, change it, then destroy it with destroy chunk it should be changed when you create it again.
+
+@Jack Maybe you're having the same problem as David? Closing the game won't save the changes, you need to destroy the chunk with the DestroyChunk function.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #39</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>David</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								What I did was to create a function called closeGame() on LoadChuncks.cs and I put:
+
+void closeGame()
+	{
+		var chunksToDelete = new List&lt;WorldPos&gt;();
+		foreach (var chunk in world.chunks)
+		{
+			chunksToDelete.Add(chunk.Key);
+		}
+		foreach (var chunk in chunksToDelete)
+		{
+			world.DestroyChunk(chunk.x, chunk.y, chunk.z);
+		}
+	}
+
+to finish I put this on the Update function: 
+
+if(Input.GetKey(KeyCode.F)){
+			closeGame();
+			Application.Quit();
+		}
+
+I hope it has been helpful : )							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #40</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jack</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Alex
+
+Ah, I'm a bit new, don't really know how to call the function							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #42</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Paul</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								David what cs file did you put your code in? I only have chunk.cs and it doesn't work in there or any of the ones I tried. Not sure how to properly destroy a chunk and have it save							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #56</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Nathan</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Im having this error
+InvalidCastException: Cannot cast from source type to destination type.
+Assets.Standard_Assets.Scripts.General_Scripts.Serialization.Load (.Chunk chunk) (at Assets/Standard Assets/Scripts/General Scripts/Serialization.cs:59)
+
+I believe its from the Load method inside of the Serialization class from this line:
+Save save = (Save)formatter.Deserialize(stream);
+
+When I destroy a chunk (from which I made changes) it does make a save file but when I load it back this error comes up and none of the changes I made remain.  With this new save file intact if I were to restart the program it will only allow so many chunks to appear in the game (many of the chunks dont get loaded).  							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 week ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #73</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Nathan</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Ok this is driving me crazy.  Errors don't fix them selfs.  I tried everything to understand why 
+[Save save = (Save)formatter.Deserialize(stream);]
+ wouldn't cast to no avail.  Next day I wake up turn the comp on and wallah it works!  (I was working on machine learning code not that long ago maybe my computer is fixing itself now ;P ) .  WTF can some one please help me understand why this crazy code works now?							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 week ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #76</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+							
+							
+			</article>
+	</div>
+
+
+		<div class="bg1">
+		<footer class="wrapper">
+			
+			<footer class="footer">
+	                <div class="fiftyfifty" style="padding:10px;"><bodytext>© 2015 AlexStv. All rights reserved.</bodytext></div>
+					<div class="fiftyfifty"><form id="search" action="https://web.archive.org/web/20150311034436/http://alexstv.com:80/index.php/search" method="post">
+					<bodytext>Search: </bodytext>
+					<input type="search" style="width:300px; padding:10px; border: 1px solid #e8e8e8;
+						-webkit-border-radius: 3px;
+						-moz-border-radius: 3px;
+						border-radius: 3px;" id="term" name="term" placeholder="Type here and hit enter to search" value=""></form></div>
+					
+			</footer>
+			 
+        </footer>
+		</div>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//web.archive.org/web/20150311034436/http://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-58007562-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+			
+    
+
+<!--
+playback timings (ms):
+  LoadShardBlock: 32.426 (3)
+  esindex: 0.007
+  captures_list: 48.27
+  CDXLines.iter: 11.183 (3)
+  PetaboxLoader3.datanode: 45.855 (4)
+  exclusion.robots: 0.262
+  exclusion.robots.policy: 0.249
+  RedisCDXSource: 1.59
+  PetaboxLoader3.resolve: 23.483
+  load_resource: 65.189
+--></body></html>

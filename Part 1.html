@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0107)https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Part 1_files/analytics.js.descarga"></script><script src="./Part 1_files/analytics.js(1).descarga" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app102.us.archive.org';v.server_ms=378;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./Part 1_files/ait-client-rewrite.js.descarga" charset="utf-8"></script>
+<script type="text/javascript">
+WB_wombat_Init('https://web.archive.org/web', '20150318013329', 'alexstv.com:80');
+</script>
+<script type="text/javascript" src="./Part 1_files/wbhack.js.descarga" charset="utf-8"></script>
+<script type="text/javascript">
+__wbhack.init('https://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="./Part 1_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Part 1_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+		
+		<title>AlexStv</title>
+
+		<meta name="description" content="Code and things">
+
+		<link rel="stylesheet" href="./Part 1_files/reset.css">
+		<link rel="stylesheet" href="./Part 1_files/style.css">
+		
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/feeds/rss">
+		<link rel="shortcut icon" href="https://web.archive.org/web/20150318013329im_/http://alexstv.com:80/themes/AnchoredGallery/img/favicon.png">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<script>var base = '/themes/AnchoredGallery/';</script>
+		<script src="./Part 1_files/zepto.js.descarga"></script>
+		<script src="./Part 1_files/main.js.descarga"></script>
+		
+		<link href="./Part 1_files/css" rel="stylesheet" type="text/css">
+		<link href="./Part 1_files/css(1)" rel="stylesheet" type="text/css">
+		<link type="text/css" rel="Stylesheet" href="./Part 1_files/shCoreRDark.css">
+
+
+	    <meta name="viewport" content="width=600">
+	    <meta name="generator" content="Anchor CMS">
+
+	    <meta property="og:title" content="AlexStv">
+	    <meta property="og:type" content="website">
+	    <meta property="og:url" content="posts/unity-voxel-block-tutorial">
+	    <meta property="og:image" content="/web/20150318013329im_/http://alexstv.com:80/themes/AnchoredGallery/img/og_image.gif">
+	    <meta property="og:site_name" content="AlexStv">
+	    <meta property="og:description" content="Code and things">
+
+		
+		<!-- Include required JS files -->
+		<script type="text/javascript" src="./Part 1_files/shCore.js.descarga"></script>
+		<script type="text/javascript" src="./Part 1_files/shBrushCSharp.js.descarga"></script>
+
+        <script type="text/javascript" src="./Part 1_files/jquery.min.js.descarga"></script>
+        <!-- Include jQuery Syntax Highlighter -->
+        <script type="text/javascript" src="./Part 1_files/jquery.syntaxhighlighter.min.js.descarga"></script>
+        <!-- Initialise jQuery Syntax Highlighter -->
+        <script type="text/javascript">$.SyntaxHighlighter.init();</script>
+        <!-- Initialise jQuery Syntax Highlighter -->
+        <script type="text/javascript">
+          $.SyntaxHighlighter.init({
+          'alternateLines':true
+
+          });
+        </script>
+	
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+	</script></head>
+	
+	
+
+	<body class="posts home"><div id="wm-ipp" lang="en" style="display: block; direction: ltr;">
+<div style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:130px;padding-top:10px;">
+      <a href="https://web.archive.org/web/" title="Wayback Machine home page"><img src="./Part 1_files/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial#" onclick="__wm.saveSnapshot(&#39;http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial&#39;, &#39;20150318013329&#39;)" title="Share via My Web Archive" id="wm-save-snapshot-open" style="display: none;">
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: inline-block;">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web" style="display: none;"></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" style="text-align:right;">
+	<a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial#" onclick="window.open(&#39;https://www.facebook.com/sharer/sharer.php?u=https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial#" onclick="window.open(&#39;https://twitter.com/intent/tweet?text=https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial&amp;via=internetarchive&#39;, &#39;&#39;, &#39;height=400,width=600&#39;); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="https://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" onfocus="this.focus();this.select();" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20150318013329"><input type="submit" value="Go"></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20150214050310/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" title="14 Feb 2015"><strong>Feb</strong></a></td>
+		  <td class="c" id="displayMonthEl" title="You are here: 01:33:29 Mar 18, 2015">MAR</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20150423073359/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" title="23 Apr 2015"><strong>Apr</strong></a></td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20150214050310/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" title="05:03:10 Feb 14, 2015"><img src="./Part 1_files/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 01:33:29 Mar 18, 2015">18</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20150423073359/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" title="07:33:59 Apr 23, 2015"><img src="./Part 1_files/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap">2014</td>
+		  <td class="c" id="displayYearEl" title="You are here: 01:33:29 Mar 18, 2015">2015</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20160414080649/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" title="14 Apr 2016"><strong>2016</strong></a></td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures"><a class="t" href="https://web.archive.org/web/*/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" title="See a list of every capture for this URL">33 captures</a><div class="r" title="Timespan for captures of this URL">30 Jan 2015 - 23 Sep 2017</div></div>
+	  </td>
+	  <td class="k">
+	    <a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="575" height="27" border="0"></canvas>
+	      <div class="yt" style="display: none; width: 25px; height: 27px;"></div><div class="mt" style="display: none; width: 2px; height: 27px;"></div></div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+            <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="./Part 1_files/loading.gif" alt="loading"></div>
+    </div>
+  </div></div></div></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="./Part 1_files/timestamp.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 1_files/graph-calc.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 1_files/auto-complete.js.descarga" charset="utf-8"></script>
+<script type="text/javascript" src="./Part 1_files/toolbar.js.descarga" charset="utf-8"></script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<script type="text/javascript">
+__wm.bt(575,27,25,2,"web","http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial","2015-03-18",1996);
+</script><div class="wb-autocomplete-suggestions "></div>
+<!-- END WAYBACK TOOLBAR INSERT -->
+	
+			<div style="background-color:#4774A5; overflow:hidden; background-position:center; background-image:url(&#39;https://web.archive.org/web/20150318013329im_/http://4.bp.blogspot.com/-9w7pH08mSaM/UGbaDEz3kOI/AAAAAAAADeI/9XWFFsdLdwg/s1600/body.png&#39;);background-repeat:repeat;">
+	<article class="wrapper">
+		<a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/">
+			<header>
+				<titletext>AlexStv</titletext>
+			</header>
+		</a>
+		
+											
+						
+					
+			<div class="pagewrapper" style="width:100%">
+																	
+														<a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/category/general" title="General">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>General (2)</stamptext>
+						</div>
+					</a>
+										<a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/category/voxels" title="Voxels">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>Voxels (7)</stamptext>
+						</div>
+					</a>
+										<a href="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/category/grapple" title="Grapple">
+					
+											<div class="page" style="width:33.333333333333%">
+													<stamptext>Grapple (3)</stamptext>
+						</div>
+					</a>
+													
+			</div>
+			</article>
+	</div>
+
+
+		
+		
+	
+		
+	
+	
+
+	
+	
+
+<div class="bg2">
+	<article class="wrapper">
+<div class="post">
+									<div id="filler">
+							              <div class="description" style="width:100%; padding-bottom:30px; background-color:#3C5C89;">
+
+                                        <h1 style="color:#fff;">Unity voxel block tutorial pt. 1</h1>
+						</div>
+						</div>
+					
+						<div id="filler">
+							<div class="description">
+								<bodytext>
+									<p>I've done a voxel tutorial before that got a lot of attention and I figured it might be time for a second version that's a bit more advanced and more extendible. So this time we're going to delve a little deeper into making a maintainable and flexible system. this tutorial will cover some advanced topics so it might not be for everyone. This tutorial will cover 3d blocks and real time editing so I can't promise I can help you with marching cubes, water simulations, minecraft clones etc.</p>
+
+<p>For those of you who didn't see my original tutorial it's <a href="https://web.archive.org/web/20150318013329/http://www.studentgamedev.blogspot.co.uk/p/unity3d-c-voxel-and-procedural-mesh.html">here</a>.</p>
+
+<p></p><div class="warnbox"><infoboxtext><p>This is an advanced tutorial that requires existing knowledge with Unity and C#. </p></infoboxtext></div><p></p>
+
+<p>I want to cover a lot in this tutorial but it may take some time to get to everything. We'll get the basic rendering and 3d mesh stuff done first I think, then we'll take a look at making it load infinite terrain because so many people asked for it. We'll create a method for saving and loading terrain because that will be vital for a game with a world you can edit. </p>
+
+<p>We'll start with an empty unity project but if you want you can do this in an existing project. We'll start with chunks and blocks.</p>
+
+<p></p><div class="infobox"><infoboxtext><p>
+A chunk is a section of voxels that are rendered together. I've used chunks of 16x16x16 voxels before but larger chunks (32x32x32) will lower your draw calls which improves rendering performance and smaller chunks (16x16x16) mean smaller updates when you change a block (because the entire chunk needs to be reloaded) or load the chunk. Unity has a maximum face count per mesh and each chunk has one mesh so if your chunk is too big and exceeds that it won't render.
+</p></infoboxtext></div><p></p>
+
+<p><strong>Create 3 C# scripts, one called Chunk, one called Block and one called MeshData</strong>. Chunk's tasks are to store the data of their contents and create a mesh of their contained voxels for rendering and collisions. The Block will be a class that contains information about one block and how it should be rendered. MeshData will provide us with an easy way to store mesh data.</p>
+
+<p>Now we'll start in the Chunk script by adding the necessary functions and variables. 
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_884613" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//Chunk.cs</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number3 index2 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number4 index3 alt1">&nbsp;</div><div class="line number5 index4 alt2"><code class="csharp plain">[RequireComponent(</code><code class="csharp keyword">typeof</code><code class="csharp plain">(MeshFilter))]</code></div><div class="line number6 index5 alt1"><code class="csharp plain">[RequireComponent(</code><code class="csharp keyword">typeof</code><code class="csharp plain">(MeshRenderer))]</code></div><div class="line number7 index6 alt2"><code class="csharp plain">[RequireComponent(</code><code class="csharp keyword">typeof</code><code class="csharp plain">(MeshCollider))]</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="csharp keyword">public</code> <code class="csharp keyword">class</code> <code class="csharp plain">Chunk : MonoBehaviour {</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Block[ , , ] blocks;</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">static</code> <code class="csharp keyword">int</code> <code class="csharp plain">chunkSize = 16;</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">bool</code> <code class="csharp plain">update = </code><code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number14 index13 alt1">&nbsp;</div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Use this for initialization</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">Start () {</code></div><div class="line number17 index16 alt2">&nbsp;</div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number19 index18 alt2">&nbsp;</div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Update is called once per frame</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">Update () {</code></div><div class="line number22 index21 alt1">&nbsp;</div><div class="line number23 index22 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number24 index23 alt1">&nbsp;</div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">Block GetBlock(</code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z)</code></div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">blocks[x, y, z];</code></div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number29 index28 alt2">&nbsp;</div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Updates the chunk based on its contents</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">UpdateChunk()</code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number33 index32 alt2">&nbsp;</div><div class="line number34 index33 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number35 index34 alt2">&nbsp;</div><div class="line number36 index35 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Sends the calculated mesh information</code></div><div class="line number37 index36 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//to the mesh and collision components</code></div><div class="line number38 index37 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">RenderMesh()</code></div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number40 index39 alt1">&nbsp;</div><div class="line number41 index40 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number42 index41 alt1">&nbsp;</div><div class="line number43 index42 alt2"><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>First of all, we're including three components, MeshFilter, MeshRenderer and MeshCollider. These are included here so that when we create a gameobject with this script they are added automatically. We need those components to render the mesh and create the collider for the chunk.</p>
+
+<p>Next the variables. "blocks" is a three dimensional array of Block classes, this way the Block class can store all the information we need about block type, meta data, etc. in the Block class. The static variable chunkSize will determine how many voxels in each direction our chunk will have. Lastly we'll use update as a flag that this chunk has been changed and will need to be updated at the end of the frame.</p>
+
+<p>For the functions I've just added GetBlock to return blocks from the the chunk. UpdateChunk which will loop through all it's blocks building a 3d mesh based on their presence and types and then send it to RenderMesh which will send all our mesh data into the unity components.</p>
+
+<p>Next let's move onto our MeshData script because we'll need this before we move on to the Block. Lay out the MeshData script like this:
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_865639" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//MeshData.cs</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number3 index2 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number4 index3 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections.Generic;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp keyword">public</code> <code class="csharp keyword">class</code> <code class="csharp plain">MeshData {</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">List&lt;Vector3&gt; vertices = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;Vector3&gt;();</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">List&lt;</code><code class="csharp keyword">int</code><code class="csharp plain">&gt; triangles = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;</code><code class="csharp keyword">int</code><code class="csharp plain">&gt;();</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">List&lt;Vector2&gt; uv = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;Vector2&gt;();</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">List&lt;Vector3&gt; colVertices = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;Vector3&gt;();</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="csharp keyword">public</code> <code class="csharp plain">List&lt;</code><code class="csharp keyword">int</code><code class="csharp plain">&gt; colTriangles = </code><code class="csharp keyword">new</code> <code class="csharp plain">List&lt;</code><code class="csharp keyword">int</code><code class="csharp plain">&gt;();</code></div><div class="line number13 index12 alt2">&nbsp;</div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">MeshData() { }</code></div><div class="line number15 index14 alt2">&nbsp;</div><div class="line number16 index15 alt1"><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Note that it doesn't inherit from MonoBehaviour, it doesn't need to because we won't be using it in the scene only through code and this let's us create it through the constructor with "new MeshData();" any time.</p>
+
+<p>The variables here are the three components for the mesh: verts, tris and texture coordinates and two for the collider mesh, the verts and tris.</p>
+
+<p></p><div class="infobox"><infoboxtext><p>
+Vertices are vector 3 positions in space that define the points or corners of every triangle in the mesh. Every three entries in the triangles list defines one triangle and the entry itself is the index of a vector 3 in the vertices array. The uv list is a vector 2 list of texture coordinates and there are two entries per triangle, the coordinates of the lower left of the triangle and the upper right of the triangle.</p>
+
+<p>The col lists are the same as vertices and triangles but for use as the collider mesh so that you can pass a different mesh for the rendering and the collider.
+</p></infoboxtext></div><p></p>
+
+<p>Now we can move on to the Block script. The Block class is going to be the base class all other block types will inherit from. This will mean that every block will have a class where we can define how it's rendered and store variables like damage values. We'll set up the base class with default functions that can be overridden. Start with 
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_660801" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="csharp keyword">public</code> <code class="csharp keyword">class</code> <code class="csharp plain">Block {</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Base block constructor</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">Block(){</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData Blockdata</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number16 index15 alt1">&nbsp;</div><div class="line number17 index16 alt2"><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Start with this, here we have a class called Block that doesn't inherit from anything, then we have the constructor with no parameters. This base class' constructor can be called as part of the constructor of any sub class so code that we want to run for the construction of all blocks can go in this constructor.
+We also have the BlockData function that returns MeshData. This function will be called by the chunk for every block it contains so that the block can provide its own mesh information. We'll fill this out a little later.</p>
+
+<p>Now we need a function to check if blocks are solid or not so that we can decide whether or not to render blocks adjacent to it.</p>
+
+<p></p><div class="infobox"><infoboxtext><p>When we render voxels we don't need to render every side of every voxel. Some faces will be impossible for the player to see because they are covered by other voxels. In the case of square voxels we can always assume that a block adjacent to another the sides facing each other aren't visible so we don't need to render them. It's simple enough to only render faces of blocks facing empty spaces but we'll also handle non-cube blocks.</p></infoboxtext></div><p></p>
+
+<p>We will let every block be solid or non-solid on a face by face basis, this means that something like a ramp block would be solid on the bottom and the north face but not on the others so the upwards face of the block under it won't render but the bottom face of a block above it would. For this we need a struct to describe the direction:
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_623235" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">enum</code> <code class="csharp plain">Direction { north, east, south, west, up, down };</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>and a function for getting the solidity of a block's face:</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_304146" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">virtual</code> <code class="csharp keyword">bool</code> <code class="csharp plain">IsSolid(Direction direction)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">switch</code><code class="csharp plain">(direction){</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">case</code> <code class="csharp plain">Direction.north:</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">case</code> <code class="csharp plain">Direction.east:</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">case</code> <code class="csharp plain">Direction.south:</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">case</code> <code class="csharp plain">Direction.west:</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">case</code> <code class="csharp plain">Direction.up:</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">case</code> <code class="csharp plain">Direction.down:</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number17 index16 alt2">&nbsp;</div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">false</code><code class="csharp plain">;</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Because this function is virtual other blocks types can override it with their own solidity. The direction is sent as a parameter, this will be the direction of the face of the block being checked. So if up is the parameter it returns the solidity of the top face of the block. In the case of our base block we return true for all the cases because the base block will be a cube. For cubes we could just return true since all directions will be true but in this case it's nice to have an example of code that can be extended for any block with any combination of solid faces.</p>
+
+<p>Now we can start filling in the BlockData function. For each face we want to render we need to check if the block in that direction is solid or not and if so we'll create some data for the block.</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_54310" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div><div class="line number44 index43 alt1">44</div><div class="line number45 index44 alt2">45</div><div class="line number46 index45 alt1">46</div><div class="line number47 index46 alt2">47</div><div class="line number48 index47 alt1">48</div><div class="line number49 index48 alt2">49</div><div class="line number50 index49 alt1">50</div><div class="line number51 index50 alt2">51</div><div class="line number52 index51 alt1">52</div><div class="line number53 index52 alt2">53</div><div class="line number54 index53 alt1">54</div><div class="line number55 index54 alt2">55</div><div class="line number56 index55 alt1">56</div><div class="line number57 index56 alt2">57</div><div class="line number58 index57 alt1">58</div><div class="line number59 index58 alt2">59</div><div class="line number60 index59 alt1">60</div><div class="line number61 index60 alt2">61</div><div class="line number62 index61 alt1">62</div><div class="line number63 index62 alt2">63</div><div class="line number64 index63 alt1">64</div><div class="line number65 index64 alt2">65</div><div class="line number66 index65 alt1">66</div><div class="line number67 index66 alt2">67</div><div class="line number68 index67 alt1">68</div><div class="line number69 index68 alt2">69</div><div class="line number70 index69 alt1">70</div><div class="line number71 index70 alt2">71</div><div class="line number72 index71 alt1">72</div><div class="line number73 index72 alt2">73</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData Blockdata</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!chunk.GetBlock(x, y + 1, z).IsSolid(Direction.down))</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData = FaceDataUp(chunk, x, y, z, meshData);</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!chunk.GetBlock(x, y - 1, z).IsSolid(Direction.up))</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData = FaceDataDown(chunk, x, y, z, meshData);</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!chunk.GetBlock(x, y, z + 1).IsSolid(Direction.south))</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData = FaceDataNorth(chunk, x, y, z, meshData);</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!chunk.GetBlock(x, y, z - 1).IsSolid(Direction.north))</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData = FaceDataSouth(chunk, x, y, z, meshData);</code></div><div class="line number23 index22 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!chunk.GetBlock(x + 1, y, z).IsSolid(Direction.west))</code></div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData = FaceDataEast(chunk, x, y, z, meshData);</code></div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number29 index28 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!chunk.GetBlock(x - 1, y, z).IsSolid(Direction.east))</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData = FaceDataWest(chunk, x, y, z, meshData);</code></div><div class="line number33 index32 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number34 index33 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number35 index34 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number36 index35 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number37 index36 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number38 index37 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataUp</code></div><div class="line number40 index39 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number41 index40 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number42 index41 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number43 index42 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number44 index43 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number45 index44 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataDown</code></div><div class="line number46 index45 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number47 index46 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number48 index47 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number49 index48 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number50 index49 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number51 index50 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataNorth</code></div><div class="line number52 index51 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number53 index52 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number54 index53 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number55 index54 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number56 index55 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number57 index56 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataEast</code></div><div class="line number58 index57 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number59 index58 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number60 index59 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number61 index60 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number62 index61 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number63 index62 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataSouth</code></div><div class="line number64 index63 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number65 index64 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number66 index65 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number67 index66 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number68 index67 alt1"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number69 index68 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataWest</code></div><div class="line number70 index69 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number71 index70 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number72 index71 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number73 index72 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>So in the GetMesh function we look at every face and for every face of the block this goes through it finds the adjacent block to that side and checks if the side of the adjacent block facing this block is solid. If the block facing this face is not solid this face is visible so we run the specific function for that side sending it the meshData variable. The function for each side will need to add the data for the side and return the meshData variable back with the additions.</p>
+
+<p>Now we'll fill in the FaceData functions with data starting with the upwards facing side:
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_634635" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//Block.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataUp</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y + 0.5f, z + 0.5f));</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y + 0.5f, z + 0.5f));</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y + 0.5f, z - 0.5f));</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y + 0.5f, z - 0.5f));</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.AddQuadTriangles();</code></div><div class="line number11 index10 alt2">&nbsp;</div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>I added a function to add the triangles to the array within the MeshData class for square meshes, it takes the last four added vertices and creates two triangles to make a quad with those vertices so we'll add that to the <strong>MeshData script</strong> before we continue:
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_767821" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;</code><code class="csharp comments">//MeshData.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">void</code> <code class="csharp plain">AddQuadTriangles()</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">triangles.Add(vertices.Count - 4);</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">triangles.Add(vertices.Count - 3);</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">triangles.Add(vertices.Count - 2);</code></div><div class="line number7 index6 alt2">&nbsp;</div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">triangles.Add(vertices.Count - 4);</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">triangles.Add(vertices.Count - 2);</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">triangles.Add(vertices.Count - 1);</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Lets take a look at FaceDataUp, our first quad, we add four vertices to the vertices list, one for each corner of the quad. They are added in clockwise order. Then we call the AddQuadTriangles function which assumes that the last four entries in the vertices array make a quad so we make two triangles. The first one uses the first, second and third vertices, the second one uses the first, third and fourth vertices. This makes a quad of two triangles.</p>
+
+<p>Now we'll do this for the other faces as well with different values for the vertex positions.
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_929446" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div><div class="line number44 index43 alt1">44</div><div class="line number45 index44 alt2">45</div><div class="line number46 index45 alt1">46</div><div class="line number47 index46 alt2">47</div><div class="line number48 index47 alt1">48</div><div class="line number49 index48 alt2">49</div><div class="line number50 index49 alt1">50</div><div class="line number51 index50 alt2">51</div><div class="line number52 index51 alt1">52</div><div class="line number53 index52 alt2">53</div><div class="line number54 index53 alt1">54</div><div class="line number55 index54 alt2">55</div><div class="line number56 index55 alt1">56</div><div class="line number57 index56 alt2">57</div><div class="line number58 index57 alt1">58</div><div class="line number59 index58 alt2">59</div><div class="line number60 index59 alt1">60</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp comments">//Block.cs</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataDown</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y - 0.5f, z - 0.5f));</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y - 0.5f, z - 0.5f));</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y - 0.5f, z + 0.5f));</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y - 0.5f, z + 0.5f));</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.AddQuadTriangles();</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataNorth</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y - 0.5f, z + 0.5f));</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y + 0.5f, z + 0.5f));</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y + 0.5f, z + 0.5f));</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y - 0.5f, z + 0.5f));</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.AddQuadTriangles();</code></div><div class="line number23 index22 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataEast</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number29 index28 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y - 0.5f, z - 0.5f));</code></div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y + 0.5f, z - 0.5f));</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y + 0.5f, z + 0.5f));</code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y - 0.5f, z + 0.5f));</code></div><div class="line number33 index32 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number34 index33 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.AddQuadTriangles();</code></div><div class="line number35 index34 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number36 index35 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number37 index36 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number38 index37 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataSouth</code></div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number40 index39 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number41 index40 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y - 0.5f, z - 0.5f));</code></div><div class="line number42 index41 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y + 0.5f, z - 0.5f));</code></div><div class="line number43 index42 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y + 0.5f, z - 0.5f));</code></div><div class="line number44 index43 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x + 0.5f, y - 0.5f, z - 0.5f));</code></div><div class="line number45 index44 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number46 index45 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.AddQuadTriangles();</code></div><div class="line number47 index46 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number48 index47 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number49 index48 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number50 index49 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">protected</code> <code class="csharp keyword">virtual</code> <code class="csharp plain">MeshData FaceDataWest</code></div><div class="line number51 index50 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number52 index51 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number53 index52 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y - 0.5f, z + 0.5f));</code></div><div class="line number54 index53 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y + 0.5f, z + 0.5f));</code></div><div class="line number55 index54 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y + 0.5f, z - 0.5f));</code></div><div class="line number56 index55 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.vertices.Add(</code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(x - 0.5f, y - 0.5f, z - 0.5f));</code></div><div class="line number57 index56 alt2"><code class="csharp spaces">&nbsp;</code>&nbsp;</div><div class="line number58 index57 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData.AddQuadTriangles();</code></div><div class="line number59 index58 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number60 index59 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>All of these follow the same concept as the first face, four coordinates, one for each corner of the face. The center of the block is the origin of the block or the location of x, y, z.</p>
+
+<p></p><div class="infobox"><infoboxtext><p>I'm not going through every function but when eventually you want to build your own blocks that aren't cubes you'll have to get a good understanding of placing these vertices and making triangles with them.</p></infoboxtext></div><p></p>
+
+<p>Now we will quickly create the second basic block type: Air. <strong>Create a new script called BlockAir</strong> and open it. We're going to inherit from Block and override a few functions.
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_951210" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp keyword">using</code> <code class="csharp plain">UnityEngine;</code></div><div class="line number2 index1 alt1"><code class="csharp keyword">using</code> <code class="csharp plain">System.Collections;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="csharp keyword">public</code> <code class="csharp keyword">class</code> <code class="csharp plain">BlockAir : Block</code></div><div class="line number5 index4 alt2"><code class="csharp plain">{</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp plain">BlockAir()</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">: </code><code class="csharp keyword">base</code><code class="csharp plain">()</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number11 index10 alt2">&nbsp;</div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">override</code> <code class="csharp plain">MeshData Blockdata</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">(Chunk chunk, </code><code class="csharp keyword">int</code> <code class="csharp plain">x, </code><code class="csharp keyword">int</code> <code class="csharp plain">y, </code><code class="csharp keyword">int</code> <code class="csharp plain">z, MeshData meshData)</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp plain">meshData;</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number17 index16 alt2">&nbsp;</div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">public</code> <code class="csharp keyword">override</code> <code class="csharp keyword">bool</code> <code class="csharp plain">IsSolid(Block.Direction direction)</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">return</code> <code class="csharp keyword">false</code><code class="csharp plain">;</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number22 index21 alt1"><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>This class inherits Block and its constructor calls the base class' constructor. Then we override BlockData to return the mesh data unchanged and we override IsSolid to return false for all directions.</p>
+
+<p>Let's turn our attention back to the <strong>chunk script</strong> now where we'll set up the Start function:
+ </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_451772" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">MeshFilter filter;</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">MeshCollider coll;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// Use this for initialization</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">Start () {</code></div><div class="line number6 index5 alt1">&nbsp;</div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">filter = gameObject.GetComponent&lt;MeshFilter&gt;();</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">coll = gameObject.GetComponent&lt;MeshCollider&gt;();</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//past here is just to set up an example chunk</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">blocks = </code><code class="csharp keyword">new</code> <code class="csharp plain">Block[chunkSize, chunkSize, chunkSize];</code></div><div class="line number12 index11 alt1">&nbsp;</div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">x = 0; x &lt; chunkSize; x++)</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">y = 0; y &lt; chunkSize; y++)</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">z = 0; z &lt; chunkSize; z++)</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">blocks[x, y, z] = </code><code class="csharp keyword">new</code> <code class="csharp plain">BlockAir();</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number23 index22 alt2">&nbsp;</div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">blocks[3, 5, 2] = </code><code class="csharp keyword">new</code> <code class="csharp plain">Block();</code></div><div class="line number25 index24 alt2">&nbsp;</div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">UpdateChunk();</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>Note the added filter and coll variables, we need the Mesh Filter and Mesh Collider components to assign the mesh data to. Then we need to set up a block for testing temporarily.</p>
+
+<p>Now we'll have the update chunk function use every block's BlockData function to create the mesh and then send it to RenderMesh.</p>
+
+<p> </p></bodytext></div> </div> <div class="codeblock"><div><div id="highlighter_234655" class="syntaxhighlighter  csharp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// Updates the chunk based on its contents</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">UpdateChunk()</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">MeshData meshData = </code><code class="csharp keyword">new</code> <code class="csharp plain">MeshData();</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">x = 0; x &lt; chunkSize; x++)</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">y = 0; y &lt; chunkSize; y++)</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number10 index9 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">z = 0; z &lt; chunkSize; z++)</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">meshData = blocks[x, y, z].Blockdata(</code><code class="csharp keyword">this</code><code class="csharp plain">, x, y, z, meshData);</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number16 index15 alt1">&nbsp;</div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">RenderMesh(meshData);</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number19 index18 alt2">&nbsp;</div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// Sends the calculated mesh information</code></div><div class="line number21 index20 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">// to the mesh and collision components</code></div><div class="line number22 index21 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">void</code> <code class="csharp plain">RenderMesh(MeshData meshData)</code></div><div class="line number23 index22 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">filter.mesh.Clear();</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">filter.mesh.vertices = meshData.vertices.ToArray();</code></div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">filter.mesh.triangles = meshData.triangles.ToArray();</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr></tbody></table></div></div></div><div id="filler"> <div class="description" style="padding-top:0px"> <bodytext><p></p>
+
+<p>UpdateChunk loops through all the blocks updating meshData based on the results and calls RenderMesh with meshData. Note that I added MeshData as a parameter of RenderMesh as this is what we will build the mesh from. Then the unity component Mesh Filter has a mesh variable so we can clear it and assign vertices and triangles to it from the mesh data.</p>
+
+<p>Now we can run this and make sure it all works. Create a game object and place the Chunk script on it, this should also add the Mesh Filter, Mesh Renderer and Mesh Collider. Running it should render one textureless cube.</p>
+
+<p> </p></bodytext></div> </div> <img src="./Part 1_files/voxelrun1.png"> <div id="filler"> <div class="description"> <bodytext><p></p>
+
+<p>Note that for now any blocks on the edge of the chunk will cause out of bounds errors because they will try to check the solidity of blocks outside the chunk, we will address this later.</p>
+
+<p>If your project isn't working at this point try downloading the scripts from this tutorial below and see if yours match. If you can't solve it then post below with your problem and any errors you're receiving. If you find any errors in my tutorial or have suggestions I would be grateful to hear them as well.</p>
+
+<p>In part 2 we'll add textures and a collision mesh.</p>
+
+<p><a href="https://web.archive.org/web/20150318013329/http://alexstv.com/downloads/voxeltut1.zip" class="inline_button" style="background-color:#2D9AE3">Download scripts so far</a>
+<a href="https://web.archive.org/web/20150318013329/http://alexstv.com/index.php/posts/unity-voxel-block-tutorial-pt-2" class="inline_button" style="background-color:#2D9AE3">Tutorial part 2</a><br><br></p>
+
+<p><a href="https://web.archive.org/web/20150318013329/https://twitter.com/stv_alex" class="inline_button" style="background-color:#77B1D1">Follow me on twitter</a><a href="https://web.archive.org/web/20150318013329/https://plus.google.com/+AlexandrosStavrinou/posts" class="inline_button" style="background-color:#D73D32">Add me on Google+</a><br><br></p>
+
+<p></p><div class="infobox"><infoboxtext><p>Feel free to post issues or questions in the comments but I may remove questions and issues from the comments section after answering and leaving it for a while. Then I'll add it to a frequently asked questions section or amend the tutorial.</p></infoboxtext></div><p></p>
+								</bodytext>
+							</div>
+						</div>	
+						
+
+					<section class="yspace"></section>
+					<div class="datestamp">
+						<stamptext>8th Dec, 2014</stamptext>
+					</div>
+					<div class="authorstamp">
+						<stamptext>Alex</stamptext>
+					</div>
+					<section class="yspace"></section>
+				</div>
+				
+				
+				
+								<div class="post">
+					<div id="filler">
+						<bodytext>
+							<form id="comment" class="commentform commentbox" method="post" action="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/posts/unity-voxel-block-tutorial#comment">
+								
+								<p class="name">
+									<label for="name">Your name:</label>
+									<input name="name" id="name" type="text" placeholder="Your name" value="">								</p>
+
+								<p class="email">
+									<label for="email">Your email address:</label>
+									<input name="email" id="email" type="email" placeholder="Your email (won’t be published)" value="">								</p>
+
+								<p class="textarea">
+									<label for="text">Your comment:</label>
+									<textarea name="text" id="text" placeholder="Your comment"></textarea>								</p>
+
+								<p class="submit">
+									<button class="btn" type="submit">Post Comment</button>								</p>
+							</form>
+						</bodytext>
+					</div>
+					
+				</div>
+				
+				
+							
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Aiden</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Thanks for making this tutorial, can't wait to finish the rest of them. One small error I noticed is the method Blockdata should probably be called BlockData.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 months ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #4</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Venor</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								In the 7th blackCodeBox there is a comment, "//MeshData.cs" . This may lead someone to belive to make those funktions in the MeshData.cs, it did this to me.
+
+I would remove this.
+
+Greets Mike							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 months ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #5</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Micaiah Stevens</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@Venor, thanks for that catch.  I mistaken added in all the 'protected virtual MeshData FaceDataWest' and the like to Meshdata class and not the block class.  This shows nothing in your view.  The Meshdata class only contains the AddQuadTriangles function and the variables for the class.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 months ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #6</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>AlexStv</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								
+@Venor thanks for catching that, changed it in the tutorial.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 months ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #10</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jack</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								The 
+[RequireComponent(typeof(MeshFilter))]
+[RequireComponent(typeof(MeshRenderer))]
+[RequireComponent(typeof(MeshCollider))]
+
+Does not seem to work for me, as it is not adding the components?							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 months ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #15</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Jack</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Scratch that, it works now.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 months ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #16</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>BothXP</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Just to check ... In the 1st code block you've got:
+     Block[ , , ] blocks;
+     public static int chunkSize = 16;
+     public bool update = true;
+
+but then in the following text you say "Next the variables, these are all private to keep this class insulated."
+
+The last 2 look public to me, or am I misreading something ?							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #26</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>AlexStv</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								@BothXP Ah yeah they aren't meant to be private, they used to be but I later changed them to make my life easier in later tutorials where I would need access.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #30</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>RobvP</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Wow.. thanks for this introduction to voxel based development. I was looking at Qubicle and wondered how to implement those models in your own software. As it seems, Unity3D with this kind of approach might be a way to start!
+
+So many thanks from the always flat Netherlands to you in the beautiful Norwegian country ;-)							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #32</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Richard</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hay so i want to create a 2d game like terraria and i finished your first tutorial but it generates the same thing over and over so can you help me make the kindof thing you have here where it loads and saves and has chuncks but in 2d?							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #37</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>jonas</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Can you add ores into this?
+							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>1 month ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #38</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>David</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Just a suggestion for optimization.  It seems like a waste to populate all Air blocks with an actual instance of the BlockAir class since really this just represents "nothing" in the scene.  In my code I created a single private BlockAir instance in my Chunk script and modified  my GetBlock() method as follows:
+
+private BlockAir airBlock = new BlockAir();
+
+public Block GetBlock(int x, int y, int z)
+{
+    if (blocks[x, y, z] != null)
+        return blocks[x, y, z];
+
+    return airBlock;
+}
+
+This way I don't have to create umpteen thousand BlockAir objects just to say "there's nothing here", but anything that calls GetBlock() will get back a valid BlockAir object for those indices.
+
+Great tutorial, by the way!  I walked through your old one first (doing the 2D terrain) and it's all superb.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #59</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>David</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Apologies on the formatting in my previous comment.  Apparently this site does not like paragraph break. =\							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #60</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Keenan Woodall</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								For some reason the bottom face of the one block is offset by one unit. I copied and pasted the FaceData methods. Any ideas on where else the issue could be coming from?							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #63</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Luis</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hi Alex.
+
+Thanks vor your nice Voxel Tutorials.
+I'm new in Unity and C#, but your explanations are easy to understand :)
+
+I found an other side with your voxel tutorial: http://www.studentgamedev.blogspot.no/2013/11/tutorialdemo.html
+Is it an older version ?
+It looks to me as if you are using to 2 types of source code
+But i'll read this tutorial too.
+
+Thanks again for your help
+
+Luis							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>3 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #64</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>Steve</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								Hey for some reason I only get 2 faces of the textureless cube. I checked my code and don't know why.							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 weeks ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #79</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>uexanimeyuka</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								&lt;a href=http://genericpropecia-finasteride.net/&gt;Propecia No Prescription&lt;/a&gt; &lt;a href="http://ventolin-buyonline.net/"&gt;Salbutamol&lt;/a&gt; http://online-zoloft-cheapestprice.com/							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 days ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #93</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>oyufaneyos</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								&lt;a href=http://genericpropecia-finasteride.net/&gt;Buy Propecia&lt;/a&gt; &lt;a href="http://ventolin-buyonline.net/"&gt;Salbutamol&lt;/a&gt; http://online-zoloft-cheapestprice.com/							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 days ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #94</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>ufefpaxfeeg</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								&lt;a href=http://genericpropecia-finasteride.net/&gt;Generic Propecia&lt;/a&gt; &lt;a href="http://ventolin-buyonline.net/"&gt;Salbutamol Online&lt;/a&gt; http://online-zoloft-cheapestprice.com/							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 days ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #95</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>egodiqa</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								&lt;a href=http://genericpropecia-finasteride.net/&gt;Propecia Online&lt;/a&gt; &lt;a href="http://ventolin-buyonline.net/"&gt;Salbutamol Inhaler&lt;/a&gt; http://online-zoloft-cheapestprice.com/							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 days ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #96</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>uwicuboxiraft</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								&lt;a href=http://genericpropecia-finasteride.net/&gt;Buy Finasteride Online&lt;/a&gt; &lt;a href="http://ventolin-buyonline.net/"&gt;Ventolin Dose&lt;/a&gt; http://online-zoloft-cheapestprice.com/							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 days ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #97</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+								
+				<div class="post">
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								<h1>uvodijukaxo</h1>
+							</bodytext>
+									
+						</div>
+					</div>
+							
+					<div id="filler">
+						<div class="description">
+							<bodytext>
+								&lt;a href=http://genericpropecia-finasteride.net/&gt;Propecia&lt;/a&gt; &lt;a href="http://ventolin-buyonline.net/"&gt;Para Que Es Salbutamol&lt;/a&gt; http://online-zoloft-cheapestprice.com/							</bodytext>
+						</div>
+					</div>
+							
+					<section class="yspace"></section>
+							
+					<div class="datestamp">
+						<stamptext>2 days ago</stamptext>
+					</div>
+					
+					<div class="authorstamp">
+						<stamptext>Comment #98</stamptext>
+					</div>
+					
+					<section class="yspace"></section>
+					
+				</div>
+				
+							
+							
+			</article>
+	</div>
+
+
+		<div class="bg1">
+		<footer class="wrapper">
+			
+			<footer class="footer">
+	                <div class="fiftyfifty" style="padding:10px;"><bodytext>© 2015 AlexStv. All rights reserved.</bodytext></div>
+					<div class="fiftyfifty"><form id="search" action="https://web.archive.org/web/20150318013329/http://alexstv.com:80/index.php/search" method="post">
+					<bodytext>Search: </bodytext>
+					<input type="search" style="width:300px; padding:10px; border: 1px solid #e8e8e8;
+						-webkit-border-radius: 3px;
+						-moz-border-radius: 3px;
+						border-radius: 3px;" id="term" name="term" placeholder="Type here and hit enter to search" value=""></form></div>
+					
+			</footer>
+			 
+        </footer>
+		</div>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//web.archive.org/web/20150318013329/http://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-58007562-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+			
+    
+
+<!--
+playback timings (ms):
+  LoadShardBlock: 32.968 (3)
+  esindex: 0.009
+  captures_list: 54.216
+  CDXLines.iter: 11.902 (3)
+  PetaboxLoader3.datanode: 80.234 (4)
+  exclusion.robots: 0.32
+  exclusion.robots.policy: 0.306
+  RedisCDXSource: 6.221
+  PetaboxLoader3.resolve: 234.898
+  load_resource: 306.617
+--></body></html>
